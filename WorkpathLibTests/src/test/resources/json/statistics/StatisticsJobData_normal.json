@@ -1,0 +1,31 @@
+{
+  "jobSequence": 123,
+  "jobId": "JOB-001",
+  "resourceId": "RES-ABC",
+  "jobInfo": {
+    "jobId": "JOB-001",
+    "applicationName": "MyApp",
+    "deviceJobName": "PrintDoc1",
+    "jobCategory": "Print",
+    "jobDataSource": "NetworkIO",
+    "jobDestinations": ["PrintEngine", "Email"],
+    "jobDoneStatus": "Succeeded",
+    "jobDoneTimestamp": {"dateTime": "2025-09-02T10:15:30Z"},
+    "jobPaused": "None",
+    "jobStartedTimestamp": {"dateTime": "2025-09-02T10:15:00Z"},
+    "parentJobId": null,
+    "processedBy": "Device"
+  },
+  "scanInfo": {"pagesScanned": 5},
+  "printInfo": {"pagesPrinted": 5},
+  "extendedUserInfo": {"userName": "alice"},
+  "emailInfo": {"to": ["user@example.com"]},
+  "driverInfo": {"driverName": "HPDriver"},
+  "aFaxInInfo": {"faxId": "FAXIN1"},
+  "aFaxOutInfo": {"faxId": "FAXOUT1"},
+  "ipFaxInInfo": {"faxId": "IPFAXIN1"},
+  "ipFaxOutInfo": {"faxId": "IPFAXOUT1"},
+  "folderInfo": [{"path": "/shares/docs"}],
+  "ftpInfo": [{"server": "ftp.example.com"}],
+  "httpInfo": [{"url": "https://api.example.com"}]
+}

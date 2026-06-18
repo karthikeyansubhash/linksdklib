@@ -1,0 +1,15 @@
+{
+  "jobSequence": 7,
+  "jobId": "JOB-005",
+  "resourceId": "RES-EMPTY",
+  "jobInfo": {
+    "jobId": "JOB-005",
+    "applicationName": "EmptyApp",
+    "jobCategory": "Print",
+    "jobDataSource": "NetworkIO",
+    "jobDestinations": []
+  },
+  "folderInfo": [],
+  "ftpInfo": [],
+  "httpInfo": []
+}

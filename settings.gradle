@@ -1,0 +1,12 @@
+include ':Util-Common'
+project(':Util-Common').projectDir = new File(settingsDir, 'Libs/Common')
+include ':API-JetAdvantageLinkApi'
+project(':API-JetAdvantageLinkApi').projectDir = new File(settingsDir, 'Libs/JetAdvantageLinkApi')
+include ':Build-JetAdvantageLinkInternalLibs'
+project(':Build-JetAdvantageLinkInternalLibs').projectDir = new File(settingsDir, 'Libs/JetAdvantageLinkInternalLibs')
+include ':Library-JetAdvantageLinkLib'
+project(':Library-JetAdvantageLinkLib').projectDir = new File(settingsDir, 'Libs/JetAdvantageLinkLib')
+//include ':Util-LinkApi'
+//project(':Util-LinkApi').projectDir = new File(settingsDir, 'Libs/LinkApi')
+include ':Test-WorkpathLibTests'
+project(':Test-WorkpathLibTests').projectDir = new File(settingsDir, 'WorkpathLibTests')

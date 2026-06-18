@@ -1,0 +1,11 @@
+{
+  "mVersion": 8,
+  "ConsumableTypeEnum": "UNKNOWN_TYPE",
+  "MakeAndModel": "HP 410A Cyan",
+  "ProductNumber": "CF411A",
+  "SerialNumber": "SN654321",
+  "Description": "Cyan Toner Cartridge",
+  "MarkerColor": "Cyan",
+  "ApproxPercentRemaining": "-10",
+  "Capacity": {"Unit": "pages", "MaxCapacity": -500}
+}

@@ -1,0 +1,8 @@
+{
+  "printer": {
+    "sheets": 100,
+    "engineCycles": 250,
+    "byPrintPlex": [ { "plex": "Simplex", "sheets": 80 } ],
+    "byJobCategory": [ { "jobCategory": "Print", "a4EquivalentDeciImpressions": 500 } ]
+  }
+}

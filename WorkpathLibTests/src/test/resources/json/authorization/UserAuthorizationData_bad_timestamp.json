@@ -1,0 +1,7 @@
+{
+  "authenticatedUserInfo": {
+    "authenticationType": "WINDOWS",
+    "userName": "jdoe"
+  },
+  "timestamp": { "time": "bad-date-format", "offset": 0 }
+}

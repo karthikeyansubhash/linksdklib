@@ -1,0 +1,38 @@
+{
+  "meta": {
+    "version": 3,
+    "generatedAt": "2025-09-01T12:34:56.789Z",
+    "tags": ["alpha", "beta", "gamma"],
+    "flags": {"experimental": true, "deprecated": false}
+  },
+  "root": {"id": 900, "name": "root-node-x", "active": true, "children": [1,2,3,4]},
+  "list": [
+    {"id": 1, "name": "alpha", "active": false, "scores": [10, 20, 30], "extra": {"k1": "v1", "k2": 2}},
+    {"id": 2, "name": "beta", "active": true,  "scores": [], "extra": {"nested": {"flag": true, "vals": [1, null, 3]}}},
+    {"id": 3, "name": "gamma", "active": true,  "scores": [5], "extra": null}
+  ],
+  "map": {
+    "first":  {"id": 1, "name": "alpha", "active": false},
+    "second": {"id": 2, "name": "beta",  "active": true},
+    "third":  {"id": 3, "name": "gamma", "active": true}
+  },
+  "heteroArray": [
+    42,
+    "string-value",
+    true,
+    null,
+    {"inlineObj": 1, "arr": [1,2,3]},
+    [ {"deepId": 1}, {"deepId": 2, "deepArr": [ {"leaf": "x"}, {"leaf": "y"} ] } ]
+  ],
+  "matrix": [
+    [1,2,3],
+    [4,5,6],
+    [7,8,9]
+  ],
+  "sparseObj": {
+    "a": 1,
+    "b": null,
+    "c": {"inner": null},
+    "d": [null, {"z": null}]
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "mVersion": 6,
+  "mColorMode": "COLOR",
+  "mPlex": "BOOK",
+  "mAutoFit": "TRUE",
+  "mStapleMode": "STAPLE",
+  "mPaperSource": "TRAY_1",
+  "mPaperSize": "LETTER",
+  "mPaperType": "PLAIN",
+  "mDocumentFormat": "PDF",
+  "mCollateMode": "COLLATED",
+  "mCopies": 3,
+  "mSource": "USB",
+  "mJobName": "Annual Report",
+  "mOrientation": "LANDSCAPE",
+  "mPrintQuality": "NORMAL",
+  "mOutputBin": "OUTPUT_BIN_1",
+  "mStartPageRanges": 1,
+  "mEndPageRanges": 10,
+  "mFinishings": ["SADDLE_STITCH", "FOLD"]
+}

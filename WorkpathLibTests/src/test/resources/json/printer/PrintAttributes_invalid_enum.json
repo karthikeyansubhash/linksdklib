@@ -1,0 +1,21 @@
+{
+  "mVersion": 6,
+  "mColorMode": "ULTRA_COLOR",
+  "mPlex": "TRIPLE",
+  "mAutoFit": "STRETCH",
+  "mStapleMode": "MEGA_STAPLE",
+  "mPaperSource": "TRAY_X",
+  "mPaperSize": "A0_PLUS",
+  "mPaperType": "PLASTIC",
+  "mDocumentFormat": "DOCX",
+  "mCollateMode": "RANDOM",
+  "mCopies": 5,
+  "mSource": "ALIEN_PORTAL",
+  "mJobName": "BadEnums",
+  "mOrientation": "DIAGONAL",
+  "mPrintQuality": "ULTRA",
+  "mOutputBin": "BIN_X",
+  "mStartPageRanges": 2,
+  "mEndPageRanges": 5,
+  "mFinishings": ["TRI_FOLD"]
+}

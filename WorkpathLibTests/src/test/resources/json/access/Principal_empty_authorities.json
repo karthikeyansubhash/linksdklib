@@ -1,0 +1,20 @@
+{
+  "mVersion": 7,
+  "provider": "AD",
+  "domain": "LDAP",
+  "principalId": "u000001",
+  "fullyQualifiedName": "LDAP/corp.example/u000001",
+  "username": "Empty Auth User",
+  "userEmail": "empty.auth@corp.example",
+  "authenticated": true,
+  "admin": false,
+  "simpleAuthorities": [],
+  "userProperties": {"dept": "NONE"},
+  "isHPCloudUser": false,
+  "isSmartCardUser": false,
+  "isServiceUser": false,
+  "isGuestUser": false,
+  "isDeviceUser": false,
+  "providerUUID": null,
+  "authNAgentTrusted": false
+}

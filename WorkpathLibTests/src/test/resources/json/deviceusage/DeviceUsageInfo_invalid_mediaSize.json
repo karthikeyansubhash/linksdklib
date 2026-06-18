@@ -1,0 +1,12 @@
+{
+  "printer": {
+    "sheets": 5,
+    "engineCycles": 8,
+    "byJobCategoryAndMediaSize": [ { "jobCategory": "Print", "mediaSize": "UNKNOWN_SIZE", "impressions": 2 } ]
+  },
+  "scanner": {
+    "sheets": 3,
+    "engineCycles": 4,
+    "byMediaSize": [ { "mediaSize": "WEIRD_SIZE", "images": 1 } ]
+  }
+}

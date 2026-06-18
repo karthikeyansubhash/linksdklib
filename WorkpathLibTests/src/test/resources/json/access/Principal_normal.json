@@ -1,0 +1,23 @@
+{
+  "mVersion": 7,
+  "provider": "AD",
+  "domain": "LDAP",
+  "principalId": "u123456",
+  "fullyQualifiedName": "LDAP/corp.example/u123456",
+  "username": "Jane Doe",
+  "userEmail": "jane.doe@corp.example",
+  "authenticated": true,
+  "admin": false,
+  "simpleAuthorities": ["LOCAL_UI_ACCESS", "PRINT", "SCAN"],
+  "userProperties": {
+    "dept": "R&D",
+    "location": "BLDG-5"
+  },
+  "isHPCloudUser": false,
+  "isSmartCardUser": true,
+  "isServiceUser": false,
+  "isGuestUser": false,
+  "isDeviceUser": false,
+  "providerUUID": "550e8400-e29b-41d4-a716-446655440000",
+  "authNAgentTrusted": true
+}

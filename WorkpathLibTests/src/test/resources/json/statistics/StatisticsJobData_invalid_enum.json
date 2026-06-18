@@ -1,0 +1,22 @@
+{
+  "jobSequence": 5,
+  "jobId": "JOB-003",
+  "resourceId": "RES-XYZ",
+  "jobInfo": {
+    "jobId": "JOB-003",
+    "applicationName": "BadApp",
+    "deviceJobName": "WeirdJob",
+    "jobCategory": "UltraPrint",
+    "jobDataSource": "QuantumPort",
+    "jobDestinations": ["Teleport", "Email"],
+    "jobDoneStatus": "Crashed",
+    "jobDoneTimestamp": {"dateTime": "2025-09-02T11:00:00Z"},
+    "jobPaused": "Maybe",
+    "jobStartedTimestamp": {"dateTime": "2025-09-02T10:59:00Z"},
+    "parentJobId": "PARENT1",
+    "processedBy": "AICluster"
+  },
+  "folderInfo": [{"path": "/weird"}],
+  "ftpInfo": [],
+  "httpInfo": []
+}

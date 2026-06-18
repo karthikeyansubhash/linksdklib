@@ -1,0 +1,23 @@
+{
+  "authenticatedUserInfo": {
+    "authenticationType": null,
+    "fullyQualifiedUserName": null,
+    "userName": "",
+    "displayName": null,
+    "keyValuePairs": []
+  },
+  "authenticationAgentId": null,
+  "authenticationAgentName": "",
+  "authenticatedUserOverrides": {
+    "mToList": [],
+    "mCcList": [],
+    "mBccList": [],
+    "mFrom": null,
+    "mSubject": null,
+    "mMessage": "",
+    "mFaxCompanyName": null,
+    "mFaxBillingCode": ""
+  },
+  "opaqueAuthenticationToken": "",
+  "timestamp": { "time": null, "offset": 0 }
+}

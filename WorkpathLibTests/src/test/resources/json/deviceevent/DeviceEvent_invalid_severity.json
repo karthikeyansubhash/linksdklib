@@ -1,0 +1,11 @@
+{
+  "instanceId": "evt-12348",
+  "severity": "Severe",  
+  "category": "Print",
+  "stateChangeType": "Add",
+  "title": "Unknown Error State",
+  "eventCode": "UNK-999",
+  "timestamp": {"offset": 0, "time": "2025-09-02T12:40:00Z"},
+  "details": ["Raw device message: 0xDEADBEEF"],
+  "supportInformationLink": "https://support.example.com/device/events/UNK-999"
+}

@@ -1,0 +1,11 @@
+{
+  "instanceId": "evt-12345",
+  "severity": "Error",
+  "category": "Print",
+  "stateChangeType": "Add",
+  "title": "Paper Jam in Tray 2",
+  "eventCode": "PJ-002",
+  "timestamp": {"offset": 0, "time": "2025-09-02T12:34:56Z"},
+  "details": ["Open rear door", "Remove jammed paper"],
+  "supportInformationLink": "https://support.example.com/device/events/PJ-002"
+}

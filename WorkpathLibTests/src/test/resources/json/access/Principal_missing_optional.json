@@ -1,0 +1,14 @@
+{
+  "mVersion": 7,
+  "principalId": "u123456",
+  "authenticated": true,
+  "admin": false,
+  "simpleAuthorities": ["PRINT"],
+  "userProperties": {},
+  "isHPCloudUser": false,
+  "isSmartCardUser": false,
+  "isServiceUser": false,
+  "isGuestUser": false,
+  "isDeviceUser": false,
+  "authNAgentTrusted": false
+}

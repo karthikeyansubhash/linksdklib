@@ -1,0 +1,11 @@
+{
+  "mVersion": 8,
+  "ConsumableTypeEnum": "TONER",
+  "MakeAndModel": "HP 410A Black",
+  "ProductNumber": "CF410A",
+  "SerialNumber": "SN123456",
+  "Description": "Black Toner Cartridge",
+  "MarkerColor": "Black",
+  "ApproxPercentRemaining": "55",
+  "Capacity": {"Unit": "pages", "MaxCapacity": 2300}
+}

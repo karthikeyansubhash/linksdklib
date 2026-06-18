@@ -1,0 +1,12 @@
+{
+  "method": "DELETE",
+  "statusCode": 207,
+  "statusDescription": "Multi-Status",
+  "header": {
+    "Content-Type": "application/json"
+  },
+  "body": [
+    {"id": 10, "status": "deleted"},
+    {"id": 11, "status": "failed"}
+  ]
+}

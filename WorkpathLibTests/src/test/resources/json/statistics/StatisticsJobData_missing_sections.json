@@ -1,0 +1,9 @@
+{
+  "jobSequence": 42,
+  "jobId": "JOB-004",
+  "resourceId": "RES-MISS",
+  "jobInfo": {
+    "jobId": "JOB-004",
+    "applicationName": "AppX"
+  }
+}

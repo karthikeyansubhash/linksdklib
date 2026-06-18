@@ -1,0 +1,12 @@
+{
+  "printer": {
+    "sheets": 10,
+    "engineCycles": 20,
+    "byJobCategory": [ { "jobCategory": "UnknownCategory", "a4EquivalentDeciImpressions": 5 } ]
+  },
+  "scanner": {
+    "sheets": 5,
+    "engineCycles": 10,
+    "byJobCategory": [ { "jobCategory": "Strange", "images": 3 } ]
+  }
+}

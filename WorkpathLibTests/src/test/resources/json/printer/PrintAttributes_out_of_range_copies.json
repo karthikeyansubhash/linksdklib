@@ -1,0 +1,17 @@
+{
+  "mVersion": 6,
+  "mColorMode": "MONO",
+  "mPlex": "NONE",
+  "mAutoFit": "FALSE",
+  "mStapleMode": "NONE",
+  "mPaperSource": "TRAY_2",
+  "mPaperSize": "LEGAL",
+  "mPaperType": "PLAIN",
+  "mDocumentFormat": "PDF",
+  "mCollateMode": "UNCOLLATED",
+  "mCopies": 0,
+  "mSource": "STORAGE",
+  "mStartPageRanges": 0,
+  "mEndPageRanges": 0,
+  "mFinishings": ["DEFAULT"]
+}

@@ -1,0 +1,26 @@
+apply plugin: 'com.android.library'
+
+android {
+    compileSdkVersion rootProject.ext.compileSdkVersion
+    buildToolsVersion rootProject.ext.buildToolsVersion
+
+    defaultConfig {
+        minSdkVersion rootProject.ext.minSdkVersion
+        targetSdkVersion rootProject.ext.targetSdkVersion
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled rootProject.ext.libraryMinify
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), rootProject.ext.libraryProguardFile
+        }
+    }
+}
+
+dependencies {
+    api rootProject.ext.support_annotations
+    api ('org.simpleframework:simple-xml:2.7.1-3') {
+        exclude group: 'stax'
+        exclude group: 'xpp3'
+    }
+}

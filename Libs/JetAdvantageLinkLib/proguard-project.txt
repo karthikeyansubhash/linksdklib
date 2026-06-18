@@ -1,0 +1,82 @@
+# To enable ProGuard in your project, edit project.properties
+# to define the proguard.config property as described in that file.
+#
+# Add project specific ProGuard rules here.
+# By default, the flags in this file are appended to flags specified
+# in ${sdk.dir}/tools/proguard/proguard-android.txt
+# You can edit the include path and order by changing the ProGuard
+# include property in project.properties.
+#
+# For more details, see
+#   http://developer.android.com/guide/developing/tools/proguard.html
+
+# Add any project specific keep options here:
+
+# If your project uses WebView with JS, uncomment the following
+# and specify the fully qualified class name to the JavaScript interface
+# class:
+#-keepclassmembers class fqcn.of.javascript.interface.for.webview {
+#   public *;
+#}
+
+-keep class com.hp.jetadvantage.link.api.**
+-keep class com.hp.jetadvantage.link.common.model.PrinterInfo
+-keep class com.google.**
+-keep class org.simpleframework.**
+
+-keepattributes Exceptions,InnerClasses,Signature,Deprecated,SourceFile,LineNumberTable,*Annotation*,EnclosingMethod
+
+-keepclassmembers class !com.hp.jetadvantage.link.api.access.*Attributes,!com.hp.jetadvantage.link.api.access.EmailAddressInfo,!com.hp.jetadvantage.link.api.callback.*Attributes,!com.hp.jetadvantage.link.api.device.connect.*Attributes, !com.hp.jetadvantage.link.api.device.discovery.*Attributes, !com.hp.jetadvantage.link.api.device.DeviceInfo, !com.hp.jetadvantage.link.api.helper.email.NetworkCredentialsAttributes, !com.hp.jetadvantage.link.api.helper.email.ProxyAttributes, !com.hp.jetadvantage.link.api.helper.email.SmtpAttributes, !com.hp.jetadvantage.link.api.job.JobInfo, !com.hp.jetadvantage.link.api.job.JobletAttributes, !com.hp.jetadvantage.link.api.job.PrintJobData, !com.hp.jetadvantage.link.api.job.ScanJobData, !com.hp.jetadvantage.link.api.job.ScanJobState, !com.hp.jetadvantage.link.api.massstorage.MassStorageInfo,!com.hp.jetadvantage.link.api.printer.NetworkCredentialsAttributes, !com.hp.jetadvantage.link.api.printer.PrintAttributesReader, !com.hp.jetadvantage.link.api.printer.StatusInfo, !com.hp.jetadvantage.link.api.printer.TrayInfo, !com.hp.jetadvantage.link.api.printer.PrintletAttributes, !com.hp.jetadvantage.link.api.scanner.EmailAttributes, !com.hp.jetadvantage.link.api.scanner.NetworkCredentialsAttributes, !com.hp.jetadvantage.link.api.scanner.ScanAttributesReader, !com.hp.jetadvantage.link.api.scanner.ScanAttributesReader, !com.hp.jetadvantage.link.api.scanner.ScanletAttributes,!com.hp.jetadvantage.link.api.scanner.SmtpAttributes, com.hp.jetadvantage.link.api.** { *; }
+-keepclassmembers class com.hp.jetadvantage.link.common.model.PrinterInfo$* { *; }
+-keepclassmembers class com.google.** { *; }
+-keepclassmembers class org.simpleframework.** { *; }
+
+# Keep all parcelables
+-keepclassmembers class * implements android.os.Parcelable {
+    public <fields>;
+}
+
+-keepclassmembers class * implements android.os.Parcelable {
+    static ** CREATOR;
+}
+
+-keepclassmembers,allowoptimization enum * {
+    public static **[] values();
+    public static ** valueOf(java.lang.String);
+}
+
+-keepclassmembers class * implements java.io.Serializable {
+    static final long serialVersionUID;
+    private static final java.io.ObjectStreamField[] serialPersistentFields;
+    private void writeObject(java.io.ObjectOutputStream);
+    private void readObject(java.io.ObjectInputStream);
+    java.lang.Object writeReplace();
+    java.lang.Object readResolve();
+}
+
+-keep public class **.R {
+    public *;
+}
+
+-keepclassmembers class **.R$* {
+    public static <fields>;
+}
+
+# Warnings to be removed. Otherwise maven plugin stops, but not dangerous
+-ignorewarnings
+
+#-dontobfuscate
+#-dontusemixedcaseclassnames
+-dontskipnonpubliclibraryclasses
+-dontskipnonpubliclibraryclassmembers
+#-dontpreverify
+#-dontoptimize
+-verbose
+
+-assumenosideeffects class android.util.Log {
+    public static *** e(...);
+    public static *** w(...);
+    public static *** wtf(...);
+    public static *** d(...);
+    public static *** v(...);
+}

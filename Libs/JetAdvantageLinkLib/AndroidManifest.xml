@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest package="com.hp.workpath.lib"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+    <application>
+        <service android:name="com.hp.jetadvantage.link.common.services.ServicesToLibraryService"
+            android:exported="true"
+            android:permission="com.hp.jetadvantage.link.permission.SERVICES_PERMISSION">
+            <intent-filter>
+                <action android:name="com.hp.jetadvantage.link.common.services.ServicesToLibraryService"/>
+            </intent-filter>
+        </service>
+
+        <service android:name="com.hp.jetadvantage.link.common.services.SvcmgtServicesToLibraryService" />
+
+        <provider
+            android:name="com.hp.workpath.api.FileProvider"
+            android:authorities="${applicationId}.provider"
+            android:exported="false"
+            android:grantUriPermissions="true"
+            tools:replace="android:authorities"
+            tools:ignore="InnerclassSeparator">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_provider_paths"/>
+        </provider>
+    </application>
+</manifest>

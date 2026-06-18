@@ -1,0 +1,18 @@
+{
+  "header": {
+    "Content-Type": "application/json",
+    "Cache-control": "no-cache",
+    "Etag": "abc123"
+  },
+  "method": "GET",
+  "statusCode": 200,
+  "statusDescription": "OK",
+  "body": {
+    "message": "Success",
+    "items": [
+      {"id": 1, "name": "ItemOne"},
+      {"id": 2, "name": "ItemTwo"}
+    ],
+    "count": 2
+  }
+}

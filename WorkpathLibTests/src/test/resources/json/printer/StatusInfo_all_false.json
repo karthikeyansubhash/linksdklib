@@ -1,0 +1,5 @@
+{
+  "mVersion": 6,
+  "mStatus": "STOPPED",
+  "mStatusReasons": ["COVER_OPEN", "MEDIA_EMPTY", "TONER_EMPTY"]
+}

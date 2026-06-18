@@ -1,0 +1,19 @@
+{
+  "mCapsCreator": {
+    "mColorModeList": ["DEFAULT", "SUPER_COLOR"],
+    "mPlexList": ["DEFAULT", "TRIPLE_SIDED"],
+    "mMaxCopies": 99999,
+    "mAutoFitList": ["DEFAULT", "STRETCH"],
+    "mStapleModeList": ["DEFAULT", "MEGA_STAPLE"],
+    "mPaperSourceList": ["DEFAULT", "TRAY_X"],
+    "mPaperSizeList": ["DEFAULT", "A0_PLUS"],
+    "mPaperTypeList": ["DEFAULT", "PLASTIC"],
+    "mDocumentFormatList": ["AUTO", "DOCX"],
+    "mSourceList": ["DEFAULT", "ALIEN_PORTAL"],
+    "mCollateModeList": ["DEFAULT", "RANDOM"],
+    "mOrientationList": ["DEFAULT", "DIAGONAL"],
+    "mPrintQualityList": ["DEFAULT", "ULTRA"],
+    "mOutputBinList": ["DEFAULT", "BIN_X"],
+    "mFinishingsList": ["DEFAULT", "LASER_CUT"]
+  }
+}

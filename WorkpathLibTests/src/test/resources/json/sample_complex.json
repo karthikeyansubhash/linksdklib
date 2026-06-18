@@ -1,0 +1,11 @@
+{
+  "root": {"id": 9, "name": "root-node", "active": true},
+  "list": [
+    {"id": 1, "name": "alpha", "active": false},
+    {"id": 2, "name": "beta", "active": true}
+  ],
+  "map": {
+    "first": {"id": 1, "name": "alpha", "active": false},
+    "second": {"id": 2, "name": "beta", "active": true}
+  }
+}

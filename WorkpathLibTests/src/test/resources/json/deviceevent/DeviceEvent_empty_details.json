@@ -1,0 +1,11 @@
+{
+  "instanceId": "evt-12347",
+  "severity": "Warning",
+  "category": "Scan",
+  "stateChangeType": "Add",
+  "title": "ADF Cover Open",
+  "eventCode": "ADF-OPEN",
+  "timestamp": {"offset": -60, "time": "2025-09-02T12:35:00Z"},
+  "details": [],
+  "supportInformationLink": "https://support.example.com/device/events/ADF-OPEN"
+}

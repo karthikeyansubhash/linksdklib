@@ -1,0 +1,20 @@
+{
+  "mVersion": 7,
+  "provider": "AD",
+  "domain": "LDAP",
+  "principalId": "u999999",
+  "fullyQualifiedName": "LDAP/corp.example/u999999",
+  "username": "Unknown Enum",
+  "userEmail": "unknown.enum@corp.example",
+  "authenticated": true,
+  "admin": false,
+  "simpleAuthorities": ["LOCAL_UI_ACCESS", "PRINT", "NON_EXISTENT_ROLE"],
+  "userProperties": {"dept": "QA"},
+  "isHPCloudUser": false,
+  "isSmartCardUser": false,
+  "isServiceUser": false,
+  "isGuestUser": false,
+  "isDeviceUser": false,
+  "providerUUID": "111e8400-e29b-41d4-a716-446655440000",
+  "authNAgentTrusted": false
+}

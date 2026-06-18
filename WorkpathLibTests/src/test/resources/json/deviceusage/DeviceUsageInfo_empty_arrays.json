@@ -1,0 +1,22 @@
+{
+  "printer": {
+    "sheets": 0,
+    "engineCycles": 0,
+    "byPrintPlex": [],
+    "byJobCategory": [],
+    "byJobCategoryAndMediaSize": [],
+    "byColorMode": [],
+    "a4EquivalentByJobCategory": [],
+    "printByMediaSize": [],
+    "copyByMediaSize": [],
+    "faxByMediaSize": [],
+    "plexByMediaSize": []
+  },
+  "scanner": {
+    "sheets": 0,
+    "engineCycles": 0,
+    "byScanPlex": [],
+    "byJobCategory": [],
+    "byMediaSize": []
+  }
+}

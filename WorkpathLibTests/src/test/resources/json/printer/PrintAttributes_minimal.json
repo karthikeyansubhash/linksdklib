@@ -1,0 +1,17 @@
+{
+  "mVersion": 1,
+  "mColorMode": "DEFAULT",
+  "mPlex": "DEFAULT",
+  "mAutoFit": "DEFAULT",
+  "mStapleMode": "DEFAULT",
+  "mPaperSource": "DEFAULT",
+  "mPaperSize": "DEFAULT",
+  "mPaperType": "DEFAULT",
+  "mDocumentFormat": "AUTO",
+  "mCollateMode": "DEFAULT",
+  "mCopies": 1,
+  "mSource": "STORAGE",
+  "mStartPageRanges": 0,
+  "mEndPageRanges": 0,
+  "mFinishings": ["DEFAULT"]
+}

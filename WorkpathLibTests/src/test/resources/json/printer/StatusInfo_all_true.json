@@ -1,0 +1,5 @@
+{
+  "mVersion": 6,
+  "mStatus": "PROCESSING",
+  "mStatusReasons": ["MEDIA_JAM", "TONER_LOW", "DOOR_OPEN"]
+}

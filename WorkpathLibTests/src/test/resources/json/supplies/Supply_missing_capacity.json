@@ -1,0 +1,10 @@
+{
+  "mVersion": 8,
+  "ConsumableTypeEnum": "DRUM",
+  "MakeAndModel": "HP Drum Unit",
+  "ProductNumber": "DR123",
+  "SerialNumber": "SNDR123",
+  "Description": "Drum Unit",
+  "MarkerColor": "Black",
+  "ApproxPercentRemaining": "80"
+}

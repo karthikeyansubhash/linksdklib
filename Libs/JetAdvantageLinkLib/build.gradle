@@ -1,0 +1,57 @@
+apply plugin: 'com.android.library'
+
+android {
+    compileSdkVersion rootProject.ext.compileSdkVersion
+    buildToolsVersion rootProject.ext.buildToolsVersion
+
+    defaultConfig {
+        minSdkVersion rootProject.ext.minSdkVersion
+        targetSdkVersion rootProject.ext.targetSdkVersion
+
+        versionName rootProject.ext.version
+        versionCode 1
+    }
+
+    sourceSets {
+        main {
+            manifest.srcFile 'AndroidManifest.xml'
+            java.srcDirs = ['src']
+            res.srcDirs = ['res']
+        }
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled rootProject.ext.linkLibMinify
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-project-panel.txt', 'proguard-project-mobile.txt'
+        }
+
+        releasePanel {
+            minifyEnabled rootProject.ext.linkLibMinify
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-project-panel.txt'
+        }
+
+        releaseMobile {
+            minifyEnabled rootProject.ext.linkLibMinify
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-project-mobile.txt'
+        }
+    }
+
+    dexOptions {
+        preDexLibraries false
+    }
+}
+
+dependencies {
+    api files(buildDir.absolutePath.concat('/../Build-JetAdvantageLinkInternalLibs/libs/JetAdvantageLinkLibrary.jar'))
+    api files('libs/simple-xml-2.7.1-3.jar')
+}
+
+tasks.whenTaskAdded { task ->
+    if (task.name == 'preDebugBuild') {
+        if (project.getRootProject().allprojects.find { it.name == "Build-JetAdvantageLinkInternalLibs" }) {
+            println "Adding project dependency on project \"Build-JetAdvantageLinkInternalLibs\""
+            preBuild.dependsOn ":Build-JetAdvantageLinkInternalLibs:exportJar"
+        }
+    }
+}

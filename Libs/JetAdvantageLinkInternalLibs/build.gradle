@@ -1,0 +1,25 @@
+apply plugin: 'java'
+
+
+//task deleteTestJar(type: Delete) {
+//    delete 'libs/workpath-1.0.0.jar'
+//}
+
+task exportTestJar(type: Jar, group: "link_tasks") {
+    archiveName 'workpath-test.jar'
+    from (zipTree(buildDir.absolutePath.concat('/../API-JetAdvantageLinkApi/intermediates/bundles/debug/classes.jar')))
+    exclude('com/hp/workpath/**')
+}
+
+
+//exportTestJar.dependsOn(deleteTestJar, build)
+
+// Task to export contents as jar
+task exportJar(type: Jar, group: "link_tasks") {
+    archiveName 'JetAdvantageLinkLibrary.jar'
+    from (zipTree(buildDir.absolutePath.concat('/../API-JetAdvantageLinkApi/intermediates/bundles/debug/classes.jar')),
+            zipTree(buildDir.absolutePath.concat('/../Util-Common/intermediates/bundles/debug/classes.jar')))
+    exclude('com/hp/workpath/api/BuildConfig.*')
+}
+
+exportJar.dependsOn ':API-JetAdvantageLinkApi:compileDebugSources', ':API-JetAdvantageLinkApi:bundleDebug', ':Util-Common:compileDebugSources', ':Util-Common:bundleDebug'

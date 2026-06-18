@@ -1,0 +1,17 @@
+{
+  "userPermissionSet": [
+    "3f2504e0-4f89-11d3-9a0c-0305e82c3301",
+    "3f2504e0-4f89-11d3-9a0c-0305e82c3301",
+    "9b2d3a54-1c47-4f1b-8f5d-b6f7d114c9a2"
+  ],
+  "authorizedUserOverrides": {
+    "mToList": [ { "mAddress": "dup@example.com", "mName": "Dup" } ],
+    "mCcList": [],
+    "mBccList": [],
+    "mFrom": { "mAddress": "noreply@example.com", "mName": "System" },
+    "mSubject": "Duplicate Permissions",
+    "mMessage": "Contains duplicates.",
+    "mFaxCompanyName": "ExampleCorp",
+    "mFaxBillingCode": null
+  }
+}

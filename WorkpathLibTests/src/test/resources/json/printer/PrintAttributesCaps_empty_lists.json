@@ -1,0 +1,19 @@
+{
+  "mCapsCreator": {
+    "mColorModeList": ["DEFAULT"],
+    "mPlexList": ["DEFAULT"],
+    "mMaxCopies": 1,
+    "mAutoFitList": ["DEFAULT"],
+    "mStapleModeList": ["DEFAULT"],
+    "mPaperSourceList": ["DEFAULT"],
+    "mPaperSizeList": ["DEFAULT"],
+    "mPaperTypeList": ["DEFAULT"],
+    "mDocumentFormatList": ["AUTO"],
+    "mSourceList": ["DEFAULT"],
+    "mCollateModeList": ["DEFAULT"],
+    "mOrientationList": ["DEFAULT"],
+    "mPrintQualityList": ["DEFAULT"],
+    "mOutputBinList": ["DEFAULT"],
+    "mFinishingsList": ["DEFAULT"]
+  }
+}

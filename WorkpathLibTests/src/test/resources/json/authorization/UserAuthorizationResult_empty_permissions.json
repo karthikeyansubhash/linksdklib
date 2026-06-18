@@ -1,0 +1,13 @@
+{
+  "userPermissionSet": [],
+  "authorizedUserOverrides": {
+    "mToList": [ { "mAddress": "one@example.com", "mName": "One" } ],
+    "mCcList": [],
+    "mBccList": [],
+    "mFrom": { "mAddress": "noreply@example.com", "mName": "System" },
+    "mSubject": "No Permissions",
+    "mMessage": "User has no granted permissions.",
+    "mFaxCompanyName": null,
+    "mFaxBillingCode": null
+  }
+}

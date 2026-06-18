@@ -1,0 +1,9 @@
+{
+  "method": "POST",
+  "statusCode": 599,
+  "statusDescription": "Network Connect Timeout Error",
+  "header": {
+    "Retry-After": "120"
+  },
+  "body": ""
+}

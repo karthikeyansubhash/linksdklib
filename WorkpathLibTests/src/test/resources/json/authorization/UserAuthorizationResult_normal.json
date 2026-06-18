@@ -1,0 +1,21 @@
+{
+  "userPermissionSet": [
+    "3f2504e0-4f89-11d3-9a0c-0305e82c3301",
+    "9b2d3a54-1c47-4f1b-8f5d-b6f7d114c9a2",
+    "6c1a9d90-2bc2-4e3a-9f6f-55c3a6c7d8e4",
+    "c0a80121-7e6b-4d1f-9f10-1b2c3d4e5f60"
+  ],
+  "authorizedUserOverrides": {
+    "mToList": [
+      { "mAddress": "recipient1@example.com", "mName": "Rec One" },
+      { "mAddress": "recipient2@example.com", "mName": "Rec Two" }
+    ],
+    "mCcList": [ { "mAddress": "cc@example.com", "mName": "CC User" } ],
+    "mBccList": [],
+    "mFrom": { "mAddress": "noreply@example.com", "mName": "System" },
+    "mSubject": "Authorized Access Notice",
+    "mMessage": "Your access has been authorized with specified permissions.",
+    "mFaxCompanyName": "ExampleCorp",
+    "mFaxBillingCode": "AUTH-9001"
+  }
+}

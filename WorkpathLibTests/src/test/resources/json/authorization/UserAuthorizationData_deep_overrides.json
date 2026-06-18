@@ -1,0 +1,19 @@
+{
+  "authenticatedUserInfo": {
+    "authenticationType": "LDAP",
+    "userName": "deepuser"
+  },
+  "authenticatedUserOverrides": {
+    "mToList": [
+      { "mAddress": "a@example.com", "mName": "A" }
+    ],
+    "mCcList": [ { "mAddress": "c1@example.com", "mName": "C1" } ],
+    "mBccList": [ { "mAddress": "b1@example.com", "mName": "B1" } ],
+    "mFrom": { "mAddress": "from@example.com", "mName": null },
+    "mSubject": "Subj",
+    "mMessage": "Msg",
+    "mFaxCompanyName": "Co",
+    "mFaxBillingCode": null
+  },
+  "timestamp": { "time": "2025-09-02T00:00:00.000Z", "offset": -60 }
+}

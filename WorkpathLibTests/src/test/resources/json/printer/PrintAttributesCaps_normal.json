@@ -1,0 +1,19 @@
+{
+  "mCapsCreator": {
+    "mColorModeList": ["DEFAULT", "COLOR", "MONO", "AUTO"],
+    "mPlexList": ["DEFAULT", "NONE", "BOOK", "FLIP"],
+    "mMaxCopies": 32000,
+    "mAutoFitList": ["DEFAULT", "TRUE", "FALSE"],
+    "mStapleModeList": ["DEFAULT", "STAPLE", "DUAL_LEFT"],
+    "mPaperSourceList": ["DEFAULT", "AUTO", "TRAY_1", "TRAY_2"],
+    "mPaperSizeList": ["DEFAULT", "LETTER", "LEGAL"],
+    "mPaperTypeList": ["DEFAULT", "PLAIN", "CARD_STOCK"],
+    "mDocumentFormatList": ["AUTO", "PDF", "JPEG"],
+    "mSourceList": ["STORAGE", "HTTP", "USB", "STREAM"],
+    "mCollateModeList": ["DEFAULT", "COLLATED", "UNCOLLATED"],
+    "mOrientationList": ["DEFAULT", "LANDSCAPE", "PORTRAIT"],
+    "mPrintQualityList": ["DEFAULT", "DRAFT", "NORMAL", "HIGH"],
+    "mOutputBinList": ["DEFAULT", "OUTPUT_BIN_1", "OUTPUT_BIN_2"],
+    "mFinishingsList": ["DEFAULT", "SADDLE_STITCH", "FOLD"]
+  }
+}

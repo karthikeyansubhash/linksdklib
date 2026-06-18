@@ -1,0 +1,9 @@
+{
+  "instanceId": "evt-12346",
+  "severity": "Warning",
+  "category": "Copy",
+  "stateChangeType": "Add",
+  "title": "Low Toner",
+  "timestamp": {"offset": 330, "time": "2025-09-02T13:00:00+05:30"},
+  "details": ["Black toner at 5%" ]
+}

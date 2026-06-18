@@ -1,0 +1,54 @@
+{
+  "printer": {
+    "sheets": 1500,
+    "engineCycles": 3200,
+    "byPrintPlex": [
+      { "plex": "Simplex", "sheets": 1200 },
+      { "plex": "Duplex", "sheets": 300 }
+    ],
+    "byJobCategory": [
+      { "jobCategory": "Print", "a4EquivalentDeciImpressions": 8000 },
+      { "jobCategory": "Copy", "a4EquivalentDeciImpressions": 1200 }
+    ],
+    "byJobCategoryAndMediaSize": [
+      { "jobCategory": "Print", "mediaSize": "ANSI_A_8point5x11in", "impressions": 6000 },
+      { "jobCategory": "Copy", "mediaSize": "ANSI_A_8point5x11in", "impressions": 1000 }
+    ],
+    "byColorMode": [
+      { "jobCategory": "Print", "colorMode": "Color", "impressions": 4000 },
+      { "jobCategory": "Print", "colorMode": "Mono", "impressions": 2000 }
+    ],
+    "a4EquivalentByJobCategory": [
+      { "jobCategory": "Print", "colorMode": "Color", "a4EquivalentDeciImpressions": 5000 },
+      { "jobCategory": "Copy", "colorMode": "Mono", "a4EquivalentDeciImpressions": 800 }
+    ],
+    "printByMediaSize": [
+      { "mediaSize": "ANSI_A_8point5x11in", "monoImpressions": 2500, "colorImpressions": 3500, "totalImpressions": 6000 }
+    ],
+    "copyByMediaSize": [
+      { "mediaSize": "ANSI_A_8point5x11in", "monoImpressions": 700, "colorImpressions": 300, "totalImpressions": 1000 }
+    ],
+    "faxByMediaSize": [
+      { "mediaSize": "ANSI_A_8point5x11in", "monoImpressions": 50, "colorImpressions": 0, "totalImpressions": 50 }
+    ],
+    "plexByMediaSize": [
+      { "mediaSize": "ANSI_A_8point5x11in", "monoImpressions": 2000, "colorImpressions": 1500, "totalImpressions": 3500 }
+    ]
+  },
+  "scanner": {
+    "sheets": 500,
+    "engineCycles": 900,
+    "byScanPlex": [
+      { "plex": "Simplex", "sheets": 400 },
+      { "plex": "Duplex", "sheets": 100 }
+    ],
+    "byJobCategory": [
+      { "jobCategory": "DigitalSend", "images": 300 },
+      { "jobCategory": "Copy", "images": 200 }
+    ],
+    "byMediaSize": [
+      { "mediaSize": "ANSI_A_8point5x11in", "images": 450 },
+      { "mediaSize": "ANSI_A_Rotated_8point5x11in", "images": 50 }
+    ]
+  }
+}

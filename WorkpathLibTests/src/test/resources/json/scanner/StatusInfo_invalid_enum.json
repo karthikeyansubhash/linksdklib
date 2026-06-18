@@ -1,0 +1,8 @@
+{
+  "mVersion": 6,
+  "mIsOnline": true,
+  "mIsBusy": true,
+  "mIsAdfOutputBinFull": "OVERFLOWING",
+  "mIsPaperInAdf": "MAYBE",
+  "mIsPaperInFlatbed": "PARTIAL"
+}

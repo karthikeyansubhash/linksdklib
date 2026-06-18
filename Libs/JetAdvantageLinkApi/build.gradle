@@ -1,0 +1,99 @@
+apply plugin: 'com.android.library'
+
+repositories {
+    flatDir {
+        dirs new File(project.projectDir, 'doclava')
+    }
+}
+
+android {
+    compileSdkVersion rootProject.ext.compileSdkVersion
+    buildToolsVersion rootProject.ext.buildToolsVersion
+
+    defaultConfig {
+        minSdkVersion rootProject.ext.minSdkVersion
+        targetSdkVersion rootProject.ext.targetSdkVersion
+    }
+
+    project.configurations {
+        doclava
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled rootProject.ext.libraryMinify
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), rootProject.ext.libraryProguardFile
+        }
+    }
+}
+
+gradle.projectsEvaluated {
+    tasks.withType(JavaCompile) {
+        options.compilerArgs << "-g:vars"
+    }
+}
+
+dependencies {
+    implementation rootProject.ext.appcompat_v7
+    api project(':Util-Common')
+
+    doclava(name: 'doclava', ext: 'jar')
+    doclava(name: 'jsilver', ext: 'jar')
+    doclava(name: 'guavalib', ext: 'jar')
+    doclava(name: 'tagsouplib', ext: 'jar')
+    doclava(name: 'antlr-runtime', ext: 'jar')
+}
+
+// JavaDoc
+
+ext.defaultTemplate='templates-sdk'
+ext.javadocGeneratePublic = true
+ext.javadocGeneratePrivate = false
+
+def getDoclavaTemplate() {
+    return "${project.projectDir}/doclava/${defaultTemplate}"
+}
+
+def getDoclavaFederationAPI() {
+    return "${project.projectDir}/doclava/current.txt"
+}
+
+android.libraryVariants.all { variant ->
+    // get the name
+    def suffix = variant.getName()
+    // create
+    def javadocPublicTask = project.tasks.create(name: "javadocPublic${suffix}", type: Javadoc) {
+        source variant.javaCompile.source
+        ext.androidJar = "${android.sdkDirectory}/platforms/${android.compileSdkVersion}/android.jar"
+        classpath += files(variant.javaCompile.classpath.files) + files("${android.sdkDirectory}/platforms/${android.compileSdkVersion}/android.jar") + files(project.android.getBootClasspath()) + files("${project.buildDir}/intermediates/classes/${suffix}")
+        destinationDir = new File("${project.docsDir}/javadoc/public/${suffix}")
+        title = null
+        options.docletpath = configurations.doclava.files as List
+        options {
+            doclet "com.google.doclava.Doclava"
+            memberLevel = JavadocMemberLevel.PROTECTED
+            addStringOption "encoding", "UTF-8"
+            addStringOption "quiet"
+            addStringOption "toroot"
+            addStringOption "hdf project.name", project.name
+            addStringOption "title", "HP Workpath SDK"
+            addStringOption "templatedir", getDoclavaTemplate()
+            addPathOption "bootclasspath", project.android.getBootClasspath().asType(List).join(File.pathSeparator)
+            addStringOption "federate android", "http://developer.android.com/"
+            addStringOption "federationapi android", getDoclavaFederationAPI()
+        }
+        // exclude generated files
+        exclude '**/BuildConfig.java'
+        exclude '**/R.java'
+        failOnError false
+    }
+
+    def javadocPublicJarTask = project.tasks.create(name: "javadocJarPublic${suffix}", type: Jar) {
+        baseName "${project.name}_external_${suffix}"
+        classifier = 'javadoc'
+        from "${project.docsDir}/javadoc/public/${suffix}"
+    }
+
+    javadocPublicJarTask.dependsOn javadocPublicTask
+    artifacts.add('archives', javadocPublicJarTask);
+}

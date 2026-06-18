@@ -1,0 +1,44 @@
+{
+  "authenticatedUserInfo": {
+    "authenticationType": "WINDOWS",
+    "fullyQualifiedUserName": "CORP\\jdoe",
+    "userName": "jdoe",
+    "displayName": "John Doe",
+    "sidString": "S-1-5-21-1234567890-2345678901-3456789012-1001",
+    "ldapBindUser": "ldap_bind_user",
+    "userPrincipalName": "jdoe@corp.example.com",
+    "samAccountName": "JDOE",
+    "homeFolderPath": "\\\\fileserver01\\users\\jdoe",
+    "userDomain": "CORP",
+    "ndsContext": "ou=People,o=Corp",
+    "ndsTreeName": "CORP_TREE",
+    "emailAddress": "jdoe@corp.example.com",
+    "exchangeMailboxUri": "https://mail.corp.example.com/EWS/Exchange.asmx",
+    "keyValuePairs": [
+      { "key": "department", "value": "Engineering" },
+      { "key": "employeeId", "value": "E12345" }
+    ]
+  },
+  "authenticationAgentId": "agent-42",
+  "authenticationAgentName": "SmartCardReader-A",
+  "authenticatedUserOverrides": {
+    "mToList": [
+      { "mAddress": "alice@example.com", "mName": "Alice" },
+      { "mAddress": "bob@example.com", "mName": "Bob" }
+    ],
+    "mCcList": [
+      { "mAddress": "manager@example.com", "mName": "Manager" }
+    ],
+    "mBccList": [],
+    "mFrom": { "mAddress": "noreply@example.com", "mName": "No Reply" },
+    "mSubject": "Quarterly Report",
+    "mMessage": "Please find the attached quarterly performance report.",
+    "mFaxCompanyName": "ExampleCorp",
+    "mFaxBillingCode": "BILL-7788"
+  },
+  "opaqueAuthenticationToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.mock.signature",
+  "timestamp": {
+    "time": "2025-09-02T12:34:56.789Z",
+    "offset": 0
+  }
+}
