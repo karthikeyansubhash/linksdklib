@@ -1,0 +1,821 @@
+{
+    "ForBuild": {
+        "IpsendLib.py": "file",
+        "composeoutfolder.py": "file",
+        "execute_test.sh": "file",
+        "module_locator.py": "file",
+        "setenvvariables.py": "file",
+        "smartuxsdk_prepare_test.py": "file",
+        "smartuxsdkflash.py": "file"
+    },
+    "Libs": {
+        "Common": {
+            "build.gradle": "file",
+            "src": {
+                "main": {
+                    "java": {
+                        "com": {
+                            "hp": {
+                                "jetadvantage": {
+                                    "link": {
+                                        "common": {
+                                            "intents": {
+                                                "DeviceConnectedIntent.java": "file",
+                                                "DeviceDisconnectedIntent.java": "file",
+                                                "ISpsIntentWrapper.java": "file",
+                                                "SelectPrinterIntent.java": "file"
+                                            },
+                                            "model": {
+                                                "ApiType.java": "file",
+                                                "MFPID.java": "file",
+                                                "PrinterInfo.java": "file",
+                                                "PrinterState.java": "file"
+                                            },
+                                            "services": {
+                                                "ServicesToLibraryService.java": "file",
+                                                "SvcmgtServicesToLibraryService.java": "file"
+                                            }
+                                        }
+                                    }
+                                },
+                                "workpath": {
+                                    "common": {
+                                        "Platform.java": "file",
+                                        "Sdk.java": "file",
+                                        "annotation": {
+                                            "CommonApi.java": "file",
+                                            "DeviceApi.java": "file",
+                                            "MobileApi.java": "file"
+                                        },
+                                        "contract": {
+                                            "SelectedAccessContract.java": "file",
+                                            "SelectedAccessoryContract.java": "file",
+                                            "SelectedPrinterContract.java": "file"
+                                        },
+                                        "helper": {
+                                            "SelectedPrinterHelper.java": "file"
+                                        },
+                                        "mfpsversion": {
+                                            "data": {
+                                                "MFPSVersionCP.java": "file"
+                                            },
+                                            "helper": {
+                                                "ApiLevel.java": "file",
+                                                "Version.java": "file"
+                                            }
+                                        },
+                                        "mod": {
+                                            "Mof.java": "file",
+                                            "mof": {
+                                                "Data.java": "file",
+                                                "Descr.java": "file",
+                                                "Fidget.java": "file",
+                                                "FidgetType.java": "file",
+                                                "Frame.java": "file",
+                                                "Item.java": "file",
+                                                "L10nValue.java": "file",
+                                                "MofObject.java": "file",
+                                                "Prop.java": "file",
+                                                "PropType.java": "file"
+                                            },
+                                            "parser": {
+                                                "MofParser.java": "file"
+                                            },
+                                            "util": {
+                                                "Constant.java": "file",
+                                                "Utils.java": "file"
+                                            }
+                                        },
+                                        "utils": {
+                                            "CommonUtility.java": "file",
+                                            "FileUtility.java": "file",
+                                            "JsonParser.java": "file",
+                                            "NetworkUtility.java": "file",
+                                            "Preconditions.java": "file",
+                                            "SLog.java": "file",
+                                            "SecurityUtility.java": "file",
+                                            "json": {
+                                                "EmptyStringAsNull.java": "file",
+                                                "SerializedName.java": "file"
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "JetAdvantageLinkApi": {
+            "build.gradle": "file",
+            "doclava": {
+                "templates-sdk": {
+                    "assets": {
+                        "design": {
+                            "default.js": "file"
+                        },
+                        "js": {
+                            "android_3p-bundle.js": "file",
+                            "docs.js": "file",
+                            "prettify.js": "file"
+                        }
+                    },
+                    "body_tag.cs": "file",
+                    "class.cs": "file",
+                    "classes.cs": "file",
+                    "customizations.cs": "file",
+                    "designpage.cs": "file",
+                    "docpage.cs": "file",
+                    "footer.cs": "file",
+                    "gcm_navtree_data.cs": "file",
+                    "gms_navtree_data.cs": "file",
+                    "head_tag.cs": "file",
+                    "header.cs": "file",
+                    "header_tabs.cs": "file",
+                    "jd_lists_unified.cs": "file",
+                    "lists.cs": "file",
+                    "macros_override.cs": "file",
+                    "navtree_data.cs": "file",
+                    "nosidenavpage.cs": "file",
+                    "package.cs": "file",
+                    "packages.cs": "file",
+                    "page_info.cs": "file",
+                    "sample.cs": "file",
+                    "sampleindex.cs": "file",
+                    "samples_navtree_data.cs": "file",
+                    "sdkpage.cs": "file",
+                    "timestamp.cs": "file",
+                    "trailer.cs": "file",
+                    "yaml_navtree.cs": "file",
+                    "components": {
+                        "masthead.cs": "file"
+                    }
+                }
+            },
+            "src": {
+                "main": {
+                    "java": {
+                        "com": {
+                            "hp": {
+                                "jetadvantage": {
+                                    "link": {
+                                        "api": {
+                                            "ErrorCode.java": "file",
+                                            "Result.java": "file",
+                                            "access": {
+                                                "AuthenticationAttributes.java": "file",
+                                                "EmailAddressInfo.java": "file",
+                                                "Principal.java": "file",
+                                                "SignInAction.java": "file",
+                                                "UserOverridesAttributes.java": "file",
+                                                "UserPreferencesAttributes.java": "file"
+                                            },
+                                            "accessory": {
+                                                "AccessoryInfo.java": "file",
+                                                "RegistrationType.java": "file",
+                                                "hid": {
+                                                    "EventCode.java": "file",
+                                                    "HIDAccessoryInfo.java": "file",
+                                                    "HIDInfo.java": "file",
+                                                    "HIDReport.java": "file",
+                                                    "HIDReportEventInfo.java": "file",
+                                                    "HIDReportType.java": "file"
+                                                }
+                                            },
+                                            "copier": {
+                                                "CopyAttributes.java": "file",
+                                                "CopyletAttributes.java": "file",
+                                                "JobCredentialsAttributes.java": "file",
+                                                "StampFormat.java": "file",
+                                                "StampOption.java": "file",
+                                                "StampPolicyType.java": "file",
+                                                "StampType.java": "file",
+                                                "StoredJobAttributes.java": "file",
+                                                "StoredJobInfo.java": "file",
+                                                "intent": {
+                                                    "BaseCopyRequestIntent.java": "file",
+                                                    "DeleteRequestIntent.java": "file"
+                                                }
+                                            },
+                                            "device": {
+                                                "DeviceInfo.java": "file",
+                                                "connect": {
+                                                    "ConnectDeviceAttributes.java": "file",
+                                                    "ConnectDeviceletAttributes.java": "file",
+                                                    "NetworkConnectAttributes.java": "file"
+                                                },
+                                                "discovery": {
+                                                    "DiscoveryAttributes.java": "file",
+                                                    "DiscoveryType.java": "file",
+                                                    "DiscoveryletAttributes.java": "file"
+                                                }
+                                            },
+                                            "helper": {
+                                                "email": {
+                                                    "EmailAddressInfo.java": "file",
+                                                    "EmailAttributes.java": "file",
+                                                    "NetworkCredentialsAttributes.java": "file",
+                                                    "ProxyAttributes.java": "file",
+                                                    "SmtpAttributes.java": "file"
+                                                }
+                                            },
+                                            "job": {
+                                                "CopyJobData.java": "file",
+                                                "CopyJobState.java": "file",
+                                                "JobInfo.java": "file",
+                                                "JobletAttributes.java": "file",
+                                                "PrintJobData.java": "file",
+                                                "PrintJobState.java": "file",
+                                                "ScanJobData.java": "file",
+                                                "ScanJobState.java": "file"
+                                            },
+                                            "launcher": {
+                                                "LaunchAction.java": "file"
+                                            },
+                                            "massstorage": {
+                                                "CustomerDataFile.java": "file",
+                                                "MassStorageInfo.java": "file"
+                                            },
+                                            "printer": {
+                                                "NetworkCredentialsAttributes.java": "file",
+                                                "PrintAttributes.java": "file",
+                                                "PrintletAttributes.java": "file"
+                                            },
+                                            "scanner": {
+                                                "EmailAddressInfo.java": "file",
+                                                "EmailAttributes.java": "file",
+                                                "FileOptionsAttributes.java": "file",
+                                                "NetworkCredentialsAttributes.java": "file",
+                                                "ScanAttributes.java": "file",
+                                                "ScanletAttributes.java": "file",
+                                                "SmtpAttributes.java": "file"
+                                            }
+                                        }
+                                    }
+                                },
+                                "workpath": {
+                                    "api": {
+                                        "CapabilitiesExceededException.java": "file",
+                                        "Convertor.java": "file",
+                                        "ErrorCode.java": "file",
+                                        "FileProvider.java": "file",
+                                        "ILetObserver.java": "file",
+                                        "PaperSize.java": "file",
+                                        "Result.java": "file",
+                                        "SsdkUnsupportedException.java": "file",
+                                        "Workpath.java": "file",
+                                        "package-info.java": "file",
+                                        "access": {
+                                            "AbstractAuthenticationService.java": "file",
+                                            "AccessService.java": "file",
+                                            "Accesslet.java": "file",
+                                            "AuthenticationAttributes.java": "file",
+                                            "DeviceToken.java": "file",
+                                            "EmailAddressInfo.java": "file",
+                                            "Principal.java": "file",
+                                            "SignInAction.java": "file",
+                                            "UserOverridesAttributes.java": "file",
+                                            "UserPreferencesAttributes.java": "file",
+                                            "package-info.java": "file"
+                                        },
+                                        "accessory": {
+                                            "AbstractAccessoryService.java": "file",
+                                            "AccessoryInfo.java": "file",
+                                            "RegistrationType.java": "file",
+                                            "ReportEventInfo.java": "file",
+                                            "package-info.java": "file",
+                                            "hid": {
+                                                "AccessoryService.java": "file",
+                                                "Accessorylet.java": "file",
+                                                "EventCode.java": "file",
+                                                "HIDAccessoryInfo.java": "file",
+                                                "HIDInfo.java": "file",
+                                                "HIDReport.java": "file",
+                                                "HIDReportEventInfo.java": "file",
+                                                "HIDReportType.java": "file",
+                                                "package-info.java": "file"
+                                            }
+                                        },
+                                        "attestation": {
+                                            "AppToken.java": "file",
+                                            "AttestationService.java": "file",
+                                            "Attestationlet.java": "file",
+                                            "package-info.java": "file"
+                                        },
+                                        "authorization": {
+                                            "AbstractAuthorizationService.java": "file",
+                                            "AuthenticatedUserInfo.java": "file",
+                                            "AuthenticationType.java": "file",
+                                            "AuthorizationService.java": "file",
+                                            "Authorizationlet.java": "file",
+                                            "ChangeNotificationEventCode.java": "file",
+                                            "ChangeNotificationEventData.java": "file",
+                                            "EmailAddressInfo.java": "file",
+                                            "KeyValuePair.java": "file",
+                                            "LocalizedString.java": "file",
+                                            "Permission.java": "file",
+                                            "PermissionToSignInMethod.java": "file",
+                                            "ProxyConfiguration.java": "file",
+                                            "SignInMethod.java": "file",
+                                            "Timestamp.java": "file",
+                                            "UserAuthorizationData.java": "file",
+                                            "UserAuthorizationResult.java": "file",
+                                            "UserOverrides.java": "file",
+                                            "package-info.java": "file"
+                                        },
+                                        "callback": {
+                                            "Callback.java": "file",
+                                            "CallbackAttributes.java": "file",
+                                            "CallbackService.java": "file",
+                                            "package-info.java": "file"
+                                        },
+                                        "config": {
+                                            "ConfigService.java": "file",
+                                            "Configlet.java": "file",
+                                            "package-info.java": "file"
+                                        },
+                                        "copier": {
+                                            "CopierService.java": "file",
+                                            "CopyAttributes.java": "file",
+                                            "CopyAttributesCaps.java": "file",
+                                            "CopyAttributesCapsCreator.java": "file",
+                                            "CopyAttributesReader.java": "file",
+                                            "Copylet.java": "file",
+                                            "CopyletAttributes.java": "file",
+                                            "FloatRange.java": "file",
+                                            "JobCredentialsAttributes.java": "file",
+                                            "Range.java": "file",
+                                            "Shifts.java": "file",
+                                            "StampFormat.java": "file",
+                                            "StampOption.java": "file",
+                                            "StampPolicyType.java": "file",
+                                            "StampType.java": "file",
+                                            "StoredJobAttributes.java": "file",
+                                            "StoredJobInfo.java": "file",
+                                            "package-info.java": "file",
+                                            "intent": {
+                                                "BaseCopyRequestIntent.java": "file",
+                                                "CopyToRequestIntent.java": "file",
+                                                "DeleteRequestIntent.java": "file",
+                                                "ReleaseRequestIntent.java": "file"
+                                            }
+                                        },
+                                        "device": {
+                                            "DeviceAttribute.java": "file",
+                                            "DeviceAttributeBase.java": "file",
+                                            "DeviceInfo.java": "file",
+                                            "DeviceService.java": "file",
+                                            "Devicelet.java": "file",
+                                            "package-info.java": "file",
+                                            "connect": {
+                                                "ConnectDeviceAttributes.java": "file",
+                                                "ConnectDeviceService.java": "file",
+                                                "ConnectDevicelet.java": "file",
+                                                "ConnectDeviceletAttributes.java": "file",
+                                                "NetworkConnectAttributes.java": "file",
+                                                "package-info.java": "file",
+                                                "intent": {
+                                                    "ConnectDeviceRequestIntent.java": "file",
+                                                    "DisconnectDeviceRequestIntent.java": "file"
+                                                },
+                                                "ui": {
+                                                    "ConnectInteractionDialog.java": "file"
+                                                }
+                                            },
+                                            "discovery": {
+                                                "DiscoveryAttributes.java": "file",
+                                                "DiscoveryService.java": "file",
+                                                "DiscoveryType.java": "file",
+                                                "Discoverylet.java": "file",
+                                                "DiscoveryletAttributes.java": "file",
+                                                "package-info.java": "file",
+                                                "intent": {
+                                                    "DiscoveryStartRequestIntent.java": "file",
+                                                    "DiscoveryStopRequestIntent.java": "file"
+                                                }
+                                            },
+                                            "events": {
+                                                "DeviceEvent.java": "file",
+                                                "DeviceEventsService.java": "file",
+                                                "DeviceEventslet.java": "file",
+                                                "Timestamp.java": "file",
+                                                "package-info.java": "file"
+                                            },
+                                            "settings": {
+                                                "DeviceSettingsService.java": "file",
+                                                "DeviceSettingslet.java": "file",
+                                                "package-info.java": "file"
+                                            }
+                                        },
+                                        "deviceusage": {
+                                            "DeviceUsageInfo.java": "file",
+                                            "DeviceUsageService.java": "file",
+                                            "DeviceUsagelet.java": "file",
+                                            "Plex.java": "file",
+                                            "SubUnitInfo.java": "file",
+                                            "package-info.java": "file",
+                                            "printer": {
+                                                "PrinterInfo.java": "file",
+                                                "package-info.java": "file"
+                                            },
+                                            "scanner": {
+                                                "ScannerInfo.java": "file",
+                                                "package-info.java": "file"
+                                            }
+                                        },
+                                        "helper": {
+                                            "email": {
+                                                "Email.java": "file",
+                                                "EmailAddressInfo.java": "file",
+                                                "EmailAttributes.java": "file",
+                                                "Emaillet.java": "file",
+                                                "NetworkCredentialsAttributes.java": "file",
+                                                "ProxyAttributes.java": "file",
+                                                "SmtpAttributes.java": "file",
+                                                "package-info.java": "file"
+                                            }
+                                        },
+                                        "job": {
+                                            "CopyJobData.java": "file",
+                                            "CopyJobState.java": "file",
+                                            "JobInfo.java": "file",
+                                            "JobService.java": "file",
+                                            "Joblet.java": "file",
+                                            "JobletAttributes.java": "file",
+                                            "PrintJobData.java": "file",
+                                            "PrintJobState.java": "file",
+                                            "ScanJobData.java": "file",
+                                            "ScanJobState.java": "file",
+                                            "package-info.java": "file",
+                                            "intent": {
+                                                "JobProgressRequestIntent.java": "file"
+                                            },
+                                            "ui": {
+                                                "CredentialsDialog.java": "file",
+                                                "JobInteractionDialog.java": "file"
+                                            }
+                                        },
+                                        "launcher": {
+                                            "LaunchAction.java": "file",
+                                            "LauncherService.java": "file",
+                                            "Launcherlet.java": "file",
+                                            "package-info.java": "file"
+                                        },
+                                        "massstorage": {
+                                            "CustomerDataFile.java": "file",
+                                            "CustomerDataFileUtils.java": "file",
+                                            "MassStorageInfo.java": "file",
+                                            "MassStorageService.java": "file",
+                                            "MassStoragelet.java": "file",
+                                            "package-info.java": "file"
+                                        },
+                                        "mod": {
+                                            "Data.java": "file",
+                                            "Fidget.java": "file",
+                                            "Frame.java": "file",
+                                            "Item.java": "file",
+                                            "L10nValue.java": "file",
+                                            "Locale.java": "file",
+                                            "Mod.java": "file",
+                                            "Property.java": "file"
+                                        },
+                                        "printer": {
+                                            "NetworkCredentialsAttributes.java": "file",
+                                            "PrintAttributes.java": "file",
+                                            "PrintAttributesCaps.java": "file",
+                                            "PrintAttributesCapsCreator.java": "file",
+                                            "PrintAttributesReader.java": "file",
+                                            "PrinterService.java": "file",
+                                            "PrinterStatus.java": "file",
+                                            "Printlet.java": "file",
+                                            "PrintletAttributes.java": "file",
+                                            "StatusInfo.java": "file",
+                                            "TrayInfo.java": "file",
+                                            "package-info.java": "file",
+                                            "intent": {
+                                                "PrintRequestIntent.java": "file"
+                                            }
+                                        },
+                                        "scanner": {
+                                            "EmailAddressInfo.java": "file",
+                                            "EmailAttributes.java": "file",
+                                            "FileOptionsAttributes.java": "file",
+                                            "FileOptionsAttributesCaps.java": "file",
+                                            "FileOptionsAttributesCapsCreator.java": "file",
+                                            "FileOptionsAttributesReader.java": "file",
+                                            "Margins.java": "file",
+                                            "NetworkCredentialsAttributes.java": "file",
+                                            "Range.java": "file",
+                                            "ScanAttributes.java": "file",
+                                            "ScanAttributesCaps.java": "file",
+                                            "ScanAttributesCapsCreator.java": "file",
+                                            "ScanAttributesReader.java": "file",
+                                            "Scanlet.java": "file",
+                                            "ScanletAttributes.java": "file",
+                                            "ScannerService.java": "file",
+                                            "ScannerStatus.java": "file",
+                                            "SmtpAttributes.java": "file",
+                                            "StatusInfo.java": "file",
+                                            "package-info.java": "file",
+                                            "intent": {
+                                                "ScanToRequestIntent.java": "file"
+                                            }
+                                        },
+                                        "statistics": {
+                                            "StatisticsJobData.java": "file",
+                                            "StatisticsService.java": "file",
+                                            "Statisticslet.java": "file",
+                                            "package-info.java": "file",
+                                            "jobinfo": {
+                                                "FileInfo.java": "file",
+                                                "StatisticsAttributes.java": "file",
+                                                "StatisticsJobInfo.java": "file",
+                                                "Timestamp.java": "file",
+                                                "package-info.java": "file",
+                                                "driverinfo": {
+                                                    "DriverInfo.java": "file",
+                                                    "package-info.java": "file"
+                                                },
+                                                "emailinfo": {
+                                                    "EmailInfo.java": "file",
+                                                    "package-info.java": "file"
+                                                },
+                                                "faxinfo": {
+                                                    "FaxAttributes.java": "file",
+                                                    "FaxInInfo.java": "file",
+                                                    "FaxOutInfo.java": "file",
+                                                    "IpFaxOutInfo.java": "file",
+                                                    "package-info.java": "file"
+                                                },
+                                                "folderinfo": {
+                                                    "FolderInfo.java": "file",
+                                                    "package-info.java": "file"
+                                                },
+                                                "ftpinfo": {
+                                                    "FtpInfo.java": "file",
+                                                    "package-info.java": "file"
+                                                },
+                                                "httpinfo": {
+                                                    "HttpInfo.java": "file",
+                                                    "package-info.java": "file"
+                                                },
+                                                "print": {
+                                                    "PrintAgentInfo.java": "file",
+                                                    "PrintInfo.java": "file",
+                                                    "PrintSettings.java": "file",
+                                                    "PrintedSheetInfo.java": "file",
+                                                    "package-info.java": "file"
+                                                },
+                                                "scan": {
+                                                    "ScanInfo.java": "file",
+                                                    "ScannedSheetInfo.java": "file",
+                                                    "package-info.java": "file"
+                                                },
+                                                "userinfo": {
+                                                    "AuthenticatedUserInfo.java": "file",
+                                                    "ExtendedUserInfo.java": "file",
+                                                    "package-info.java": "file"
+                                                }
+                                            }
+                                        },
+                                        "supplies": {
+                                            "CounterGroup.java": "file",
+                                            "SuppliesService.java": "file",
+                                            "Supplieslet.java": "file",
+                                            "SupplyList.java": "file",
+                                            "package-info.java": "file",
+                                            "supplyinfo": {
+                                                "ApproximatePagesRemaining.java": "file",
+                                                "CartridgeInfo.java": "file",
+                                                "Counter.java": "file",
+                                                "CycleCount.java": "file",
+                                                "CycleLimit.java": "file",
+                                                "FixedPointNumber.java": "file",
+                                                "Manufacturer.java": "file",
+                                                "Supply.java": "file",
+                                                "package-info.java": "file"
+                                            }
+                                        },
+                                        "util": {
+                                            "EventResultReceiver.java": "file"
+                                        },
+                                        "webservices": {
+                                            "AbstractWebServices.java": "file",
+                                            "Callback.java": "file",
+                                            "HttpRequest.java": "file",
+                                            "HttpResponse.java": "file",
+                                            "WebServices.java": "file",
+                                            "WebServicesAttributes.java": "file",
+                                            "WebServiceslet.java": "file",
+                                            "package-info.java": "file"
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "JetAdvantageLinkInternalLibs": {
+            "build.gradle": "file"
+        },
+        "JetAdvantageLinkLib": {
+            "build.gradle": "file"
+        }
+    },
+    "README.md": "file",
+    "build.gradle": "file",
+    "WorkpathLibTests": {
+        "build.gradle": "file",
+        "src": {
+            "test": {
+                "java": {
+                    "PlaceholderTest.java": "file",
+                    "com": {
+                        "hp": {
+                            "workpath": {
+                                "common": {
+                                    "gson": {
+                                        "BaseJsonParserTest.java": "file",
+                                        "CollectionsGenericsTest.java": "file",
+                                        "CustomAdapterTest.java": "file",
+                                        "CycleAndConcurrencyTest.java": "file",
+                                        "DateParsingTest.java": "file",
+                                        "EnumAndAnnotationTest.java": "file",
+                                        "ErrorAndEdgeTest.java": "file",
+                                        "InstantiationFallbackTest.java": "file",
+                                        "NumberLeniencyTest.java": "file",
+                                        "PrimitivesAndPojoTest.java": "file"
+                                    },
+                                    "json": {
+                                        "JsonParserTest.java": "file",
+                                        "access": {
+                                            "DeviceTokenTest.java": "file",
+                                            "PrincipalTest.java": "file"
+                                        },
+                                        "attestation": {
+                                            "AppTokenTest.java": "file"
+                                        },
+                                        "authorization": {
+                                            "UserAuthorizationDataTest.java": "file",
+                                            "UserAuthorizationResultTest.java": "file"
+                                        },
+                                        "copier": {
+                                            "CopyAttributesCapsTest.java": "file",
+                                            "CopyAttributesTest.java": "file"
+                                        },
+                                        "deviceevent": {
+                                            "DeviceEventTest.java": "file"
+                                        },
+                                        "deviceusage": {
+                                            "DeviceUsageInfoTest.java": "file"
+                                        },
+                                        "printer": {
+                                            "PrintAttributesCapsTest.java": "file",
+                                            "PrintAttributesTest.java": "file",
+                                            "StatusInfoTest.java": "file",
+                                            "TrayInfoTest.java": "file"
+                                        },
+                                        "scanner": {
+                                            "ScanAttributesCapsTest.java": "file",
+                                            "ScanAttributesTest.java": "file",
+                                            "StatusInfoTest.java": "file"
+                                        },
+                                        "statistics": {
+                                            "StatisticsJobDataTest.java": "file"
+                                        },
+                                        "supplies": {
+                                            "SupplyTest.java": "file"
+                                        },
+                                        "webservices": {
+                                            "HttpResponseTest.java": "file"
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "resources": {
+                    "json": {
+                        "access": {
+                            "DeviceToken_code_legacy.json": "file",
+                            "DeviceToken_empty.json": "file",
+                            "DeviceToken_internal_normal.json": "file",
+                            "DeviceToken_normal.json": "file",
+                            "DeviceToken_null.json": "file",
+                            "Principal_empty_authorities.json": "file",
+                            "Principal_minimal.json": "file",
+                            "Principal_missing_optional.json": "file",
+                            "Principal_normal.json": "file",
+                            "Principal_null_properties.json": "file",
+                            "Principal_unknown_authority.json": "file"
+                        },
+                        "attestation": {
+                            "AppToken_empty_token.json": "file",
+                            "AppToken_expires_string.json": "file",
+                            "AppToken_large_expiry.json": "file",
+                            "AppToken_missing_fields.json": "file",
+                            "AppToken_normal.json": "file",
+                            "AppToken_null_token.json": "file"
+                        },
+                        "authorization": {
+                            "UserAuthorizationData_bad_timestamp.json": "file",
+                            "UserAuthorizationData_deep_overrides.json": "file",
+                            "UserAuthorizationData_invalid_enum.json": "file",
+                            "UserAuthorizationData_missing_required_blocks.json": "file",
+                            "UserAuthorizationData_normal.json": "file",
+                            "UserAuthorizationData_nullables_and_empty_lists.json": "file",
+                            "UserAuthorizationResult_duplicate_permissions.json": "file",
+                            "UserAuthorizationResult_empty_permissions.json": "file",
+                            "UserAuthorizationResult_invalid_uuid.json": "file",
+                            "UserAuthorizationResult_missing_fields.json": "file",
+                            "UserAuthorizationResult_normal.json": "file",
+                            "UserAuthorizationResult_null_overrides.json": "file"
+                        },
+                        "copier": {
+                            "CopyAttributesCaps_normal.json": "file",
+                            "CopyAttributes_normal.json": "file"
+                        },
+                        "deviceevent": {
+                            "DeviceEvent_empty_details.json": "file",
+                            "DeviceEvent_invalid_severity.json": "file",
+                            "DeviceEvent_missing_optional.json": "file",
+                            "DeviceEvent_normal.json": "file"
+                        },
+                        "deviceusage": {
+                            "DeviceUsageInfo_empty_arrays.json": "file",
+                            "DeviceUsageInfo_invalid_jobCategory.json": "file",
+                            "DeviceUsageInfo_invalid_mediaSize.json": "file",
+                            "DeviceUsageInfo_missing_scanner.json": "file",
+                            "DeviceUsageInfo_normal.json": "file"
+                        },
+                        "printer": {
+                            "PrintAttributesCaps_empty_lists.json": "file",
+                            "PrintAttributesCaps_invalid_values.json": "file",
+                            "PrintAttributesCaps_normal.json": "file",
+                            "PrintAttributes_invalid_enum.json": "file",
+                            "PrintAttributes_minimal.json": "file",
+                            "PrintAttributes_normal.json": "file",
+                            "PrintAttributes_out_of_range_copies.json": "file",
+                            "StatusInfo_all_false.json": "file",
+                            "StatusInfo_all_true.json": "file",
+                            "StatusInfo_invalid_enum.json": "file",
+                            "StatusInfo_missing_fields.json": "file",
+                            "StatusInfo_normal.json": "file",
+                            "TrayInfo_invalid_enum.json": "file",
+                            "TrayInfo_minimal.json": "file",
+                            "TrayInfo_normal.json": "file",
+                            "TrayInfo_out_of_range.json": "file",
+                            "TrayInfo_partial_missing.json": "file"
+                        },
+                        "sample_basicpojo.json": "file",
+                        "sample_complex.json": "file",
+                        "sample_enum_date.json": "file",
+                        "sample_more_complex1.json": "file",
+                        "sample_more_complex2.json": "file",
+                        "scanner": {
+                            "ScanAttributesCaps_empty_lists.json": "file",
+                            "ScanAttributesCaps_invalid_enum.json": "file",
+                            "ScanAttributesCaps_minimal.json": "file",
+                            "ScanAttributesCaps_normal.json": "file",
+                            "ScanAttributes_invalid_enum.json": "file",
+                            "ScanAttributes_minimal.json": "file",
+                            "ScanAttributes_missing_fields.json": "file",
+                            "ScanAttributes_normal.json": "file",
+                            "ScanAttributes_out_of_range.json": "file",
+                            "StatusInfo_all_false.json": "file",
+                            "StatusInfo_all_true.json": "file",
+                            "StatusInfo_invalid_enum.json": "file",
+                            "StatusInfo_missing_fields.json": "file",
+                            "StatusInfo_normal.json": "file"
+                        },
+                        "statistics": {
+                            "StatisticsJobData_empty_arrays.json": "file",
+                            "StatisticsJobData_invalid_enum.json": "file",
+                            "StatisticsJobData_minimal.json": "file",
+                            "StatisticsJobData_missing_sections.json": "file",
+                            "StatisticsJobData_normal.json": "file"
+                        },
+                        "supplies": {
+                            "Supply_capacity_only.json": "file",
+                            "Supply_invalid_values.json": "file",
+                            "Supply_minimal.json": "file",
+                            "Supply_missing_capacity.json": "file",
+                            "Supply_normal.json": "file"
+                        },
+                        "webservices": {
+                            "HttpResponse_body_array.json": "file",
+                            "HttpResponse_invalid_method.json": "file",
+                            "HttpResponse_minimal.json": "file",
+                            "HttpResponse_normal.json": "file",
+                            "HttpResponse_unusual_status.json": "file"
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
