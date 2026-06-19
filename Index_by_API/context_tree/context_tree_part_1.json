@@ -1,0 +1,617 @@
+{
+    "ForBuild": {
+        "generated_doc_filepath": "",
+        "purpose": "",
+        "associated_knowledge_bases": {
+            "raw_code": [
+                {
+                    "file_identity": "IpsendLib.py",
+                    "ForBuild/IpsendLib.py": {
+                        "chunks": [
+                            {
+                                "endLine": 17,
+                                "indexedAt": "2026-06-19T11:48:20.600335948Z",
+                                "filePath": "ForBuild/IpsendLib.py",
+                                "startLine": 11,
+                                "blobSha": "d5582d54cc60ebb8f9b4f05a8070642c812d98bf",
+                                "name": "LaunchAction.printTimeTick",
+                                "language": "python",
+                                "id": "17ae7ff16d98303317a371c762f39b8435935d5236abf899c989d4da1d381ff4",
+                                "chunkType": "function",
+                                "isTestFile": false
+                            },
+                            {
+                                "endLine": 70,
+                                "indexedAt": "2026-06-19T11:48:20.600335948Z",
+                                "filePath": "ForBuild/IpsendLib.py",
+                                "startLine": 18,
+                                "blobSha": "d5582d54cc60ebb8f9b4f05a8070642c812d98bf",
+                                "name": "ScanletAttributes.firePRN",
+                                "language": "python",
+                                "id": "3f73221bec756474838071cb5d9a03f2426f482048b55bf78497cbe4c462805e",
+                                "chunkType": "function",
+                                "isTestFile": false
+                            },
+                            {
+                                "endLine": 93,
+                                "indexedAt": "2026-06-19T11:48:20.600335948Z",
+                                "filePath": "ForBuild/IpsendLib.py",
+                                "startLine": 71,
+                                "blobSha": "d5582d54cc60ebb8f9b4f05a8070642c812d98bf",
+                                "name": "Duplex.sendfile",
+                                "language": "python",
+                                "id": "ba0c9d05fcacd5165fe23dbd145008c8aa5a58a7f7a3cc3adc62ab26a70dc5c2",
+                                "chunkType": "function",
+                                "isTestFile": false
+                            },
+                            {
+                                "endLine": 98,
+                                "indexedAt": "2026-06-19T11:48:20.600335948Z",
+                                "filePath": "ForBuild/IpsendLib.py",
+                                "startLine": 94,
+                                "blobSha": "d5582d54cc60ebb8f9b4f05a8070642c812d98bf",
+                                "name": "ByMediaSize.executeBatch",
+                                "language": "python",
+                                "id": "05ca53df8678e0b43228d981c99b70925fa8f3579332fd0033bc337d733d224a",
+                                "chunkType": "function",
+                                "isTestFile": false
+                            },
+                            {
+                                "endLine": 106,
+                                "indexedAt": "2026-06-19T11:48:20.600335948Z",
+                                "filePath": "ForBuild/IpsendLib.py",
+                                "startLine": 99,
+                                "blobSha": "d5582d54cc60ebb8f9b4f05a8070642c812d98bf",
+                                "name": "AutoFit.executeIpPrnSend",
+                                "language": "python",
+                                "id": "3e6d2db94d5747694657fbf5d2d7574d51cab1129d94cbc8e8f7a2674c6962ec",
+                                "chunkType": "function",
+                                "isTestFile": false
+                            }
+                        ]
+                    }
+                },
+                {
+                    "file_identity": "composeoutfolder.py",
+                    "ForBuild/composeoutfolder.py": {
+                        "chunks": [
+                            {
+                                "endLine": 30,
+                                "indexedAt": "2026-06-19T11:48:20.600335948Z",
+                                "filePath": "ForBuild/composeoutfolder.py",
+                                "startLine": 20,
+                                "blobSha": "11656b7afb9ea83562361846188914b95fe3d377",
+                                "name": "JobletAttributes.silentremove",
+                                "language": "python",
+                                "id": "781b1c9ed79e1f7d11d165ffb6bb483958f8daea61bbb542bb4da89735f28e39",
+                                "chunkType": "function",
+                                "isTestFile": false
+                            },
+                            {
+                                "endLine": 42,
+                                "indexedAt": "2026-06-19T11:48:20.600335948Z",
+                                "filePath": "ForBuild/composeoutfolder.py",
+                                "startLine": 31,
+                                "blobSha": "11656b7afb9ea83562361846188914b95fe3d377",
+                                "name": "ByJobCategory.move_rename",
+                                "language": "python",
+                                "id": "c294c16af666a9ae85c6f51e8c53f28fb1e47838d597b93308a3dbf0e28333f8",
+                                "chunkType": "function",
+                                "isTestFile": false
+                            },
+                            {
+                                "endLine": 69,
+                                "indexedAt": "2026-06-19T11:48:20.600335948Z",
+                                "filePath": "ForBuild/composeoutfolder.py",
+                                "startLine": 43,
+                                "blobSha": "11656b7afb9ea83562361846188914b95fe3d377",
+                                "name": "ColorMode.copy",
+                                "language": "python",
+                                "id": "0ac37b45bb106d976dd1b108259c9fcc7c1990088bed96f3fa4d95abb6cfdfad",
+                                "chunkType": "function",
+                                "isTestFile": false
+                            },
+                            {
+                                "endLine": 96,
+                                "indexedAt": "2026-06-19T11:48:20.600335948Z",
+                                "filePath": "ForBuild/composeoutfolder.py",
+                                "startLine": 70,
+                                "blobSha": "11656b7afb9ea83562361846188914b95fe3d377",
+                                "name": "AuthenticationType.copyRaw",
+                                "language": "python",
+                                "id": "fcc4bb2fb08503799cb1a80e8f48db3d2faa7f28ceacffd7ad3c6b073d8a11fb",
+                                "chunkType": "function",
+                                "isTestFile": false
+                            },
+                            {
+                                "endLine": 103,
+                                "indexedAt": "2026-06-19T11:48:20.600335948Z",
+                                "filePath": "ForBuild/composeoutfolder.py",
+                                "startLine": 97,
+                                "blobSha": "11656b7afb9ea83562361846188914b95fe3d377",
+                                "name": "ByMediaSize.makeWritable",
+                                "language": "python",
+                                "id": "dd99a97f812a06d7119fa99850eda633ed4e24e7ca606a6420f42a05cf7d004d",
+                                "chunkType": "function",
+                                "isTestFile": false
+                            },
+                            {
+                                "endLine": 259,
+                                "indexedAt": "2026-06-19T11:48:20.600335948Z",
+                                "filePath": "ForBuild/composeoutfolder.py",
+                                "startLine": 112,
+                                "blobSha": "11656b7afb9ea83562361846188914b95fe3d377",
+                                "name": "generate_javadoc",
+                                "language": "python",
+                                "id": "b5918cbf479f8042220b16d97b285a2c7d5969f9a099e3ca493723fc4b062424",
+                                "chunkType": "function",
+                                "isTestFile": false
+                            },
+                            {
+                                "endLine": 314,
+                                "indexedAt": "2026-06-19T11:48:20.600335948Z",
+                                "filePath": "ForBuild/composeoutfolder.py",
+                                "startLine": 260,
+                                "blobSha": "11656b7afb9ea83562361846188914b95fe3d377",
+                                "name": "PaperSource.main",
+                                "language": "python",
+                                "id": "fde20d3c6fdb9b2b9446b70cd374f2d0b98eec9003b0bc72869bf08ad480245f",
+                                "chunkType": "function",
+                                "isTestFile": false
+                            }
+                        ]
+                    }
+                },
+                {
+                    "file_identity": "execute_test.sh",
+                    "ForBuild/execute_test.sh": {
+                        "chunks": [
+                            {
+                                "endLine": 53,
+                                "indexedAt": "2026-06-19T11:48:20.600335948Z",
+                                "filePath": "ForBuild/execute_test.sh",
+                                "startLine": 1,
+                                "blobSha": "ea45168cf796d71ccd3055018c34949be326348b",
+                                "name": "",
+                                "language": "unknown",
+                                "id": "d987b3554b3db92fcb0a4ce22ebadd684c5a51886f119c334bcd0cf74a91cd5a",
+                                "chunkType": "fallback",
+                                "isTestFile": false
+                            }
+                        ]
+                    }
+                },
+                {
+                    "file_identity": "module_locator.py",
+                    "ForBuild/module_locator.py": {
+                        "chunks": [
+                            {
+                                "endLine": 9,
+                                "indexedAt": "2026-06-19T11:48:20.600335948Z",
+                                "filePath": "ForBuild/module_locator.py",
+                                "startLine": 6,
+                                "blobSha": "8de394c42d61c9f625c08ab1ea969ea70ca8d73c",
+                                "name": "Convertor.we_are_frozen",
+                                "language": "python",
+                                "id": "f488320433827dc6fb525ebecbbdc010d17723e199a58504d8fb1788dec3eb30",
+                                "chunkType": "function",
+                                "isTestFile": false
+                            },
+                            {
+                                "endLine": 16,
+                                "indexedAt": "2026-06-19T11:48:20.600335948Z",
+                                "filePath": "ForBuild/module_locator.py",
+                                "startLine": 10,
+                                "blobSha": "8de394c42d61c9f625c08ab1ea969ea70ca8d73c",
+                                "name": "ApiType.module_path",
+                                "language": "python",
+                                "id": "8757fef09ac918d12861296c31b3e2ba63abd339cc12d47ac8c500362b4c2032",
+                                "chunkType": "function",
+                                "isTestFile": false
+                            }
+                        ]
+                    }
+                },
+                {
+                    "file_identity": "setenvvariables.py",
+                    "ForBuild/setenvvariables.py": {
+                        "chunks": [
+                            {
+                                "endLine": 64,
+                                "indexedAt": "2026-06-19T11:48:20.600335948Z",
+                                "filePath": "ForBuild/setenvvariables.py",
+                                "startLine": 32,
+                                "blobSha": "903a684d66a8c76c71e271cfd7752f31fcccf181",
+                                "name": "ColorMode.get_build_name",
+                                "language": "python",
+                                "id": "641171a25f1dfb37c2a14a5ca4bef251cdb98239eebcec2f6501cb8927549798",
+                                "chunkType": "function",
+                                "isTestFile": false
+                            },
+                            {
+                                "endLine": 91,
+                                "indexedAt": "2026-06-19T11:48:20.600335948Z",
+                                "filePath": "ForBuild/setenvvariables.py",
+                                "startLine": 65,
+                                "blobSha": "903a684d66a8c76c71e271cfd7752f31fcccf181",
+                                "name": "ApproximatePagesRemainingSymbol.store_properties_file",
+                                "language": "python",
+                                "id": "c4d332424f37b6d93d884dae12acf45bd4f4bf20edbcc318fa21bcdd76891fe6",
+                                "chunkType": "function",
+                                "isTestFile": false
+                            },
+                            {
+                                "endLine": 145,
+                                "indexedAt": "2026-06-19T11:48:20.600335948Z",
+                                "filePath": "ForBuild/setenvvariables.py",
+                                "startLine": 92,
+                                "blobSha": "903a684d66a8c76c71e271cfd7752f31fcccf181",
+                                "name": "ConsumableStateAction.main",
+                                "language": "python",
+                                "id": "8574bac6cedb969d536cf82991638246ff6f105883e49d8f4841d077984d9c29",
+                                "chunkType": "function",
+                                "isTestFile": false
+                            }
+                        ]
+                    }
+                },
+                {
+                    "file_identity": "smartuxsdk_prepare_test.py",
+                    "ForBuild/smartuxsdk_prepare_test.py": {
+                        "chunks": [
+                            {
+                                "endLine": 37,
+                                "indexedAt": "2026-06-19T11:48:20.600335948Z",
+                                "filePath": "ForBuild/smartuxsdk_prepare_test.py",
+                                "startLine": 35,
+                                "blobSha": "8f24365249799d84dab27c1f6febeda95c112c36",
+                                "name": "TimeoutSubprocess",
+                                "language": "python",
+                                "id": "93361e9c7aee91b1bd330a03c7fbcda66c82980e182e0526bae342c1efe73033",
+                                "chunkType": "class",
+                                "isTestFile": false
+                            },
+                            {
+                                "endLine": 58,
+                                "indexedAt": "2026-06-19T11:48:20.600335948Z",
+                                "filePath": "ForBuild/smartuxsdk_prepare_test.py",
+                                "startLine": 38,
+                                "blobSha": "8f24365249799d84dab27c1f6febeda95c112c36",
+                                "name": "ColorMode.__init__",
+                                "language": "python",
+                                "id": "222b5edd4a940c968fa386eb5e8205a0be4b44844ea50225ad4471972f565105",
+                                "chunkType": "function",
+                                "isTestFile": false
+                            },
+                            {
+                                "endLine": 79,
+                                "indexedAt": "2026-06-19T11:48:20.600335948Z",
+                                "filePath": "ForBuild/smartuxsdk_prepare_test.py",
+                                "startLine": 60,
+                                "blobSha": "8f24365249799d84dab27c1f6febeda95c112c36",
+                                "name": "ActivityState.target",
+                                "language": "python",
+                                "id": "09f29ba8689f54f6c450287f9524c29a94e2ffbf1aa19802b6264faaeb167e18",
+                                "chunkType": "function",
+                                "isTestFile": false
+                            },
+                            {
+                                "endLine": 106,
+                                "indexedAt": "2026-06-19T11:48:20.600335948Z",
+                                "filePath": "ForBuild/smartuxsdk_prepare_test.py",
+                                "startLine": 103,
+                                "blobSha": "8f24365249799d84dab27c1f6febeda95c112c36",
+                                "name": "StoppableLogThread",
+                                "language": "python",
+                                "id": "341684964a84917da60cd7757d801647064f5c5dc96aac8a82ec4070084a6641",
+                                "chunkType": "class",
+                                "isTestFile": false
+                            },
+                            {
+                                "endLine": 112,
+                                "indexedAt": "2026-06-19T11:48:20.600335948Z",
+                                "filePath": "ForBuild/smartuxsdk_prepare_test.py",
+                                "startLine": 107,
+                                "blobSha": "8f24365249799d84dab27c1f6febeda95c112c36",
+                                "name": "T38Transport.__init__",
+                                "language": "python",
+                                "id": "61628315fe036c3233ad674d3e08936fa3b6b2b94b051370acde40f541972fd3",
+                                "chunkType": "function",
+                                "isTestFile": false
+                            },
+                            {
+                                "endLine": 115,
+                                "indexedAt": "2026-06-19T11:48:20.600335948Z",
+                                "filePath": "ForBuild/smartuxsdk_prepare_test.py",
+                                "startLine": 113,
+                                "blobSha": "8f24365249799d84dab27c1f6febeda95c112c36",
+                                "name": "T38Transport.stop",
+                                "language": "python",
+                                "id": "ac0b62af28d35b11102f3c31eff07329281164e3c37a214585533dddad9be293",
+                                "chunkType": "function",
+                                "isTestFile": false
+                            },
+                            {
+                                "endLine": 118,
+                                "indexedAt": "2026-06-19T11:48:20.600335948Z",
+                                "filePath": "ForBuild/smartuxsdk_prepare_test.py",
+                                "startLine": 116,
+                                "blobSha": "8f24365249799d84dab27c1f6febeda95c112c36",
+                                "name": "ServerSocketThread.stopped",
+                                "language": "python",
+                                "id": "1b4229a0b3c6d0cf525c085ae1398c4889d11be69ff0639cd99d14df2d4089fd",
+                                "chunkType": "function",
+                                "isTestFile": false
+                            },
+                            {
+                                "endLine": 138,
+                                "indexedAt": "2026-06-19T11:48:20.600335948Z",
+                                "filePath": "ForBuild/smartuxsdk_prepare_test.py",
+                                "startLine": 119,
+                                "blobSha": "8f24365249799d84dab27c1f6febeda95c112c36",
+                                "name": "Action.run",
+                                "language": "python",
+                                "id": "e6125a401bd37da2b9d22ac78dd6bcb22bd520ef327cd44cd671692055aba3fd",
+                                "chunkType": "function",
+                                "isTestFile": false
+                            },
+                            {
+                                "endLine": 161,
+                                "indexedAt": "2026-06-19T11:48:20.600335948Z",
+                                "filePath": "ForBuild/smartuxsdk_prepare_test.py",
+                                "startLine": 139,
+                                "blobSha": "8f24365249799d84dab27c1f6febeda95c112c36",
+                                "name": "Destination.print_usage_info",
+                                "language": "python",
+                                "id": "168b0d035b03710d7d9e52db3f250aece4cfab4cce73522bf30deb80e87e153d",
+                                "chunkType": "function",
+                                "isTestFile": false
+                            },
+                            {
+                                "endLine": 191,
+                                "indexedAt": "2026-06-19T11:48:20.600335948Z",
+                                "filePath": "ForBuild/smartuxsdk_prepare_test.py",
+                                "startLine": 162,
+                                "blobSha": "8f24365249799d84dab27c1f6febeda95c112c36",
+                                "name": "AgentUnit.check_adb",
+                                "language": "python",
+                                "id": "3cb20cc5e1617c52b4b83c14f6b373a96d4f8fda1a82fa3ff3e111f6eae2f5da",
+                                "chunkType": "function",
+                                "isTestFile": false
+                            },
+                            {
+                                "endLine": 222,
+                                "indexedAt": "2026-06-19T11:48:20.600335948Z",
+                                "filePath": "ForBuild/smartuxsdk_prepare_test.py",
+                                "startLine": 192,
+                                "blobSha": "8f24365249799d84dab27c1f6febeda95c112c36",
+                                "name": "DocumentFormat.find_adb",
+                                "language": "python",
+                                "id": "a8d598144c75358515e6a20ce4456b673d0f71bef030f319a02e4cf864e1c30e",
+                                "chunkType": "function",
+                                "isTestFile": false
+                            },
+                            {
+                                "endLine": 229,
+                                "indexedAt": "2026-06-19T11:48:20.600335948Z",
+                                "filePath": "ForBuild/smartuxsdk_prepare_test.py",
+                                "startLine": 223,
+                                "blobSha": "8f24365249799d84dab27c1f6febeda95c112c36",
+                                "name": "AgentConsumableContentType.launch_logging",
+                                "language": "python",
+                                "id": "03a9bd6c501c8f886af8baed3cc140f2f36219337b1ee5d3c3ee63438186161a",
+                                "chunkType": "function",
+                                "isTestFile": false
+                            },
+                            {
+                                "endLine": 260,
+                                "indexedAt": "2026-06-19T11:48:20.600335948Z",
+                                "filePath": "ForBuild/smartuxsdk_prepare_test.py",
+                                "startLine": 230,
+                                "blobSha": "8f24365249799d84dab27c1f6febeda95c112c36",
+                                "name": "JobDestination.set_log_props",
+                                "language": "python",
+                                "id": "3265ee3db94daf83f26eced50bd95a8fe3a19b7ef9e48df011ea01ce2f4a520f",
+                                "chunkType": "function",
+                                "isTestFile": false
+                            },
+                            {
+                                "endLine": 271,
+                                "indexedAt": "2026-06-19T11:48:20.600335948Z",
+                                "filePath": "ForBuild/smartuxsdk_prepare_test.py",
+                                "startLine": 261,
+                                "blobSha": "8f24365249799d84dab27c1f6febeda95c112c36",
+                                "name": "TiffCompressionMode.clean_download_folder",
+                                "language": "python",
+                                "id": "52809a7ae3b289870bbb30f2942fcc6b29fdd01bb32a2311ff625440bc897841",
+                                "chunkType": "function",
+                                "isTestFile": false
+                            },
+                            {
+                                "endLine": 278,
+                                "indexedAt": "2026-06-19T11:48:20.600335948Z",
+                                "filePath": "ForBuild/smartuxsdk_prepare_test.py",
+                                "startLine": 272,
+                                "blobSha": "8f24365249799d84dab27c1f6febeda95c112c36",
+                                "name": "TiffCompressionMode.spinning_cursor",
+                                "language": "python",
+                                "id": "1127ec63bad9b4e3fc2f7b684707482de4a6ae0775b440a92bce554b0e5a00c0",
+                                "chunkType": "function",
+                                "isTestFile": false
+                            },
+                            {
+                                "endLine": 312,
+                                "indexedAt": "2026-06-19T11:48:20.600335948Z",
+                                "filePath": "ForBuild/smartuxsdk_prepare_test.py",
+                                "startLine": 279,
+                                "blobSha": "8f24365249799d84dab27c1f6febeda95c112c36",
+                                "name": "TiffCompressionMode.reverse_readline",
+                                "language": "python",
+                                "id": "b73a427cc6e00d227d225c3427d84d753a3217eb7b2c679bb2fcd501977e2341",
+                                "chunkType": "function",
+                                "isTestFile": false
+                            },
+                            {
+                                "endLine": 336,
+                                "indexedAt": "2026-06-19T11:48:20.600335948Z",
+                                "filePath": "ForBuild/smartuxsdk_prepare_test.py",
+                                "startLine": 313,
+                                "blobSha": "8f24365249799d84dab27c1f6febeda95c112c36",
+                                "name": "PaperSource.wake_up_and_connect",
+                                "language": "python",
+                                "id": "313df0e737401ce5751b20f8c6bb8ce6a628e72a51179ed2b1ccbe8d34006805",
+                                "chunkType": "function",
+                                "isTestFile": false
+                            },
+                            {
+                                "endLine": 445,
+                                "indexedAt": "2026-06-19T11:48:20.600335948Z",
+                                "filePath": "ForBuild/smartuxsdk_prepare_test.py",
+                                "startLine": 337,
+                                "blobSha": "8f24365249799d84dab27c1f6febeda95c112c36",
+                                "name": "main",
+                                "language": "python",
+                                "id": "bb1afe8c7c6d4eabf5e5bb7a3b518942fce3a476dab88878b9dcfd93ab76d191",
+                                "chunkType": "function",
+                                "isTestFile": false
+                            }
+                        ]
+                    }
+                },
+                {
+                    "file_identity": "smartuxsdkflash.py",
+                    "ForBuild/smartuxsdkflash.py": {
+                        "chunks": [
+                            {
+                                "endLine": 52,
+                                "indexedAt": "2026-06-19T11:48:20.600335948Z",
+                                "filePath": "ForBuild/smartuxsdkflash.py",
+                                "startLine": 36,
+                                "blobSha": "11c41aa3ddb0fc5485c4e694a725f32949e9541b",
+                                "name": "JobType.print_usage_info",
+                                "language": "python",
+                                "id": "bd15eef6288708c6cc94adb5c174e1a05597945e9282e861eb728bb78acf8e64",
+                                "chunkType": "function",
+                                "isTestFile": false
+                            },
+                            {
+                                "endLine": 62,
+                                "indexedAt": "2026-06-19T11:48:20.600335948Z",
+                                "filePath": "ForBuild/smartuxsdkflash.py",
+                                "startLine": 53,
+                                "blobSha": "11c41aa3ddb0fc5485c4e694a725f32949e9541b",
+                                "name": "Status.spinning_cursor",
+                                "language": "python",
+                                "id": "51c6ff0a75e72e571c23765167652ddb70da8d120f22380b71ebc9c5c2ca5797",
+                                "chunkType": "function",
+                                "isTestFile": false
+                            },
+                            {
+                                "endLine": 67,
+                                "indexedAt": "2026-06-19T11:48:20.600335948Z",
+                                "filePath": "ForBuild/smartuxsdkflash.py",
+                                "startLine": 64,
+                                "blobSha": "11c41aa3ddb0fc5485c4e694a725f32949e9541b",
+                                "name": "JobService.wrapper",
+                                "language": "python",
+                                "id": "e0d37e56642888c4bfaf97c6fed997ff82b4a6fe5141f38f79f8df1b9f53a889",
+                                "chunkType": "function",
+                                "isTestFile": false
+                            },
+                            {
+                                "endLine": 81,
+                                "indexedAt": "2026-06-19T11:48:20.600335948Z",
+                                "filePath": "ForBuild/smartuxsdkflash.py",
+                                "startLine": 74,
+                                "blobSha": "11c41aa3ddb0fc5485c4e694a725f32949e9541b",
+                                "name": "Orientation.ftp_download_dummy_callback",
+                                "language": "python",
+                                "id": "54127d5f21a7762de2523d8b43db171fee71f2775ea8c492100c989ef5c5bf98",
+                                "chunkType": "function",
+                                "isTestFile": false
+                            },
+                            {
+                                "endLine": 91,
+                                "indexedAt": "2026-06-19T11:48:20.600335948Z",
+                                "filePath": "ForBuild/smartuxsdkflash.py",
+                                "startLine": 82,
+                                "blobSha": "11c41aa3ddb0fc5485c4e694a725f32949e9541b",
+                                "name": "Orientation.remove_all_files_with_ext",
+                                "language": "python",
+                                "id": "36f052b8c3c88aff4ba6ced15408c3db0631e363e9ffda393658cf467eee09eb",
+                                "chunkType": "function",
+                                "isTestFile": false
+                            },
+                            {
+                                "endLine": 132,
+                                "indexedAt": "2026-06-19T11:48:20.600335948Z",
+                                "filePath": "ForBuild/smartuxsdkflash.py",
+                                "startLine": 92,
+                                "blobSha": "11c41aa3ddb0fc5485c4e694a725f32949e9541b",
+                                "name": "ConsumableStateAction.download_onerom",
+                                "language": "python",
+                                "id": "6fe57b4d64fdcabda2b2696b04bc9d7e2bae2bc73c59d5ad1c0f28ae575de932",
+                                "chunkType": "function",
+                                "isTestFile": false
+                            },
+                            {
+                                "endLine": 164,
+                                "indexedAt": "2026-06-19T11:48:20.600335948Z",
+                                "filePath": "ForBuild/smartuxsdkflash.py",
+                                "startLine": 133,
+                                "blobSha": "11c41aa3ddb0fc5485c4e694a725f32949e9541b",
+                                "name": "JobDataSource.sws_execute_login",
+                                "language": "python",
+                                "id": "97620391310446322587a7ea2d9c4fb201d03adc551e950cac06ab62028a98f0",
+                                "chunkType": "function",
+                                "isTestFile": false
+                            },
+                            {
+                                "endLine": 80,
+                                "indexedAt": "2026-06-19T11:48:20.600335948Z",
+                                "filePath": "ForBuild/smartuxsdkflash.py",
+                                "startLine": 1,
+                                "blobSha": "11c41aa3ddb0fc5485c4e694a725f32949e9541b",
+                                "name": "",
+                                "language": "python",
+                                "id": "cad054a42131dd6d2fb0c7f88f11eacc04aef4499668fa91ebb9597355a5f711",
+                                "chunkType": "fallback",
+                                "isTestFile": false
+                            },
+                            {
+                                "endLine": 145,
+                                "indexedAt": "2026-06-19T11:48:20.600335948Z",
+                                "filePath": "ForBuild/smartuxsdkflash.py",
+                                "startLine": 66,
+                                "blobSha": "11c41aa3ddb0fc5485c4e694a725f32949e9541b",
+                                "name": "",
+                                "language": "python",
+                                "id": "60d4c3ad44b103e9fdda00f7c33fa27a853eb6bf9700162e1b9cea42cf0b456a",
+                                "chunkType": "fallback",
+                                "isTestFile": false
+                            },
+                            {
+                                "endLine": 170,
+                                "indexedAt": "2026-06-19T11:48:20.600335948Z",
+                                "filePath": "ForBuild/smartuxsdkflash.py",
+                                "startLine": 131,
+                                "blobSha": "11c41aa3ddb0fc5485c4e694a725f32949e9541b",
+                                "name": "",
+                                "language": "python",
+                                "id": "ce343bca8b95898fd7d83608494411eb329bca265eb7e1e4246e31280fd61b58",
+                                "chunkType": "fallback",
+                                "isTestFile": false
+                            }
+                        ]
+                    }
+                }
+            ],
+            "code_doc": [
+                {
+                    "kb_id": "",
+                    "kb_name": ""
+                }
+            ]
+        }
+    }
+}
